@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Pulls a pruned copy of a remote benchmarkoor results tree into results/.
 # Raw runner logs and JSON-RPC request payloads are excluded at transfer
-# time, so the repository only ever holds the publishable subset.
+# time, so the repository only ever holds the publishable subset. The
+# synced files then pass through scripts/desensitize.sh, which replaces
+# real addresses with their .env variable names.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -27,3 +29,5 @@ rsync -a \
     --exclude benchmarkoor.log \
     --exclude '*.request' \
     "$host:$path/" results/
+
+scripts/desensitize.sh
