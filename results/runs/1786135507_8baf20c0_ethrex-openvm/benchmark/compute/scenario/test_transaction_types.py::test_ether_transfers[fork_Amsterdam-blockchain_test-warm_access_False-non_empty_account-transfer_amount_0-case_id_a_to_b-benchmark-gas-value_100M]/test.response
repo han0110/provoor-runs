@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"proof a71a433392c0016d2bd6c7693f128d3d failed: step 'unknown' failed: Prover panicked: called `Result::unwrap()` on an `Err` value: CudaError { code: 2, name: \"cudaErrorMemoryAllocation\", message: \"out of memory\" }"}}

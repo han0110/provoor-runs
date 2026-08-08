@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"proof 627c645c8ab1d2d9104fa18e98b076c3 failed: step 'unknown' failed: Parallel app prove failed: program exit code 1"}}

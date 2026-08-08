@@ -12,6 +12,10 @@ BENCHMARKOOR_DIR="${BENCHMARKOOR:-${REPO_DIR}/../benchmarkoor}"
 GO_BUILD_TAGS="exclude_graphdriver_btrfs,exclude_graphdriver_devicemapper,containers_image_openpgp"
 RESULTS_DIR="${REPO_DIR}/results"
 SITE_DIR="${REPO_DIR}/site"
+# GitHub Pages serves this repo from a subpath, not the domain root, so asset
+# and data URLs are built against it.
+PAGES_PATH="provoor-runs"
+BASE_PATH="/${PAGES_PATH}/"
 
 SERVE=false
 
@@ -49,18 +53,33 @@ done
 # outside public and restores it afterwards.
 public_results="${BENCHMARKOOR_DIR}/ui/public/results"
 parked_results="${BENCHMARKOOR_DIR}/ui/results.parked"
+serve_root=""
+
+cleanup() {
+    if [[ -L "${parked_results}" ]]; then
+        mv "${parked_results}" "${public_results}"
+    fi
+    if [[ -n "${serve_root}" ]]; then
+        rm -rf "${serve_root}"
+    fi
+}
+trap cleanup EXIT
+
 if [[ -L "${public_results}" ]]; then
     mv "${public_results}" "${parked_results}"
-    trap 'mv "${parked_results}" "${public_results}"' EXIT
 fi
-(cd "${BENCHMARKOOR_DIR}/ui" && npm ci && npx vite build --outDir "${SITE_DIR}" --emptyOutDir)
+(cd "${BENCHMARKOOR_DIR}/ui" && npm ci && npx vite build --base "${BASE_PATH}" --outDir "${SITE_DIR}" --emptyOutDir)
 
 mkdir "${SITE_DIR}/results"
 cp -a "${RESULTS_DIR}/." "${SITE_DIR}/results/"
-printf '{ "dataSource": "/results", "title": "zkVM Benchmarks" }\n' > "${SITE_DIR}/config.json"
+printf '{ "dataSource": "%sresults", "title": "zkVM Benchmarks" }\n' "${BASE_PATH}" > "${SITE_DIR}/config.json"
 # Deep links boot the app through the GitHub Pages 404 fallback.
 cp "${SITE_DIR}/index.html" "${SITE_DIR}/404.html"
 
 if [[ "${SERVE}" == true ]]; then
-    python3 -m http.server 3002 --bind 0.0.0.0 -d "${SITE_DIR}"
+    # Serve under BASE_PATH so the preview matches the deployed URL layout.
+    serve_root="$(mktemp -d)"
+    ln -s "${SITE_DIR}" "${serve_root}/${PAGES_PATH}"
+    echo "Serving http://localhost:3002${BASE_PATH}"
+    python3 -m http.server 3002 --bind 0.0.0.0 -d "${serve_root}"
 fi
