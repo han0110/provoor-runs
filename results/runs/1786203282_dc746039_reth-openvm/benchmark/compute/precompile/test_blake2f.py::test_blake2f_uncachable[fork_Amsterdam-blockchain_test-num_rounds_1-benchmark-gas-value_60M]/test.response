@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"proof 82747ca3c70f0d169002f5babe1535e3 failed: step 'unknown' failed: Parallel app consumer failure(s): Prover panicked: GPU allocation failed: Cuda(CudaError { code: 2, name: \"cudaErrorMemoryAllocation\", message: \"out of memory\" })"}}

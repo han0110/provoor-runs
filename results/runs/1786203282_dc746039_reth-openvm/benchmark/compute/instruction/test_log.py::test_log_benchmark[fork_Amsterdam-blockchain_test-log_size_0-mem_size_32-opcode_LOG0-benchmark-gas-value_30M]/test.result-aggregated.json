@@ -1,0 +1,22 @@
+{
+  "time_total": 1266450085,
+  "gas_used_total": 30000000,
+  "gas_used_time_total": 1266450085,
+  "success": 1,
+  "fail": 0,
+  "msg_count": 1,
+  "method_stats": {
+    "times": {
+      "zkvm_proveStatelessPayload": {
+        "count": 1,
+        "last": 1266450085
+      }
+    },
+    "mgas_s": {
+      "zkvm_proveStatelessPayload": {
+        "count": 1,
+        "last": 23.68826087606919
+      }
+    }
+  }
+}

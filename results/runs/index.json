@@ -1,10 +1,10 @@
 {
-  "generated": 1786201889,
+  "generated": 1786260723,
   "entries": [
     {
-      "run_id": "1786135507_8baf20c0_ethrex-openvm",
-      "timestamp": 1786135507,
-      "timestamp_end": 1786164436,
+      "run_id": "1786225457_c372017a_ethrex-openvm",
+      "timestamp": 1786225457,
+      "timestamp_end": 1786260258,
       "suite_hash": "eccdf54bb2f7de28",
       "instance": {
         "id": "ethrex-openvm",
@@ -14,29 +14,28 @@
       },
       "tests": {
         "tests_total": 3154,
-        "tests_passed": 2988,
-        "tests_failed": 76,
+        "tests_passed": 3013,
+        "tests_failed": 141,
         "steps": {
           "test": {
-            "success": 2988,
-            "fail": 76,
-            "duration": 28874147717453,
-            "gas_used": 187385268953,
-            "gas_used_duration": 22508716113557
+            "success": 3013,
+            "fail": 141,
+            "duration": 34782299901011,
+            "gas_used": 188875168393,
+            "gas_used_duration": 22290039216976
           }
         }
       },
-      "status": "container_died",
-      "termination_reason": "container exited during test execution",
+      "status": "completed",
       "metadata": {
         "guest": "ethrex",
         "zkvm": "openvm"
       }
     },
     {
-      "run_id": "1786112963_7953aa24_reth-openvm",
-      "timestamp": 1786112963,
-      "timestamp_end": 1786135506,
+      "run_id": "1786203282_dc746039_reth-openvm",
+      "timestamp": 1786203282,
+      "timestamp_end": 1786225457,
       "suite_hash": "eccdf54bb2f7de28",
       "instance": {
         "id": "reth-openvm",
@@ -52,9 +51,9 @@
           "test": {
             "success": 3145,
             "fail": 9,
-            "duration": 22520777048909,
+            "duration": 22152664393519,
             "gas_used": 197428487619,
-            "gas_used_duration": 21745981169994
+            "gas_used_duration": 21392710769604
           }
         }
       },
