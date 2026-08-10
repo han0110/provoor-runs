@@ -7,13 +7,13 @@
   "msg_count": 1,
   "method_stats": {
     "times": {
-      "zkvm_proveStatelessPayload": {
+      "engine_proveStatelessValidator": {
         "count": 1,
         "last": 80438775585
       }
     },
     "mgas_s": {
-      "zkvm_proveStatelessPayload": {
+      "engine_proveStatelessValidator": {
         "count": 1,
         "last": 0.29532610146330834
       }

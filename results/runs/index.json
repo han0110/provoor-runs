@@ -1,11 +1,11 @@
 {
-  "generated": 1786260723,
+  "generated": 1786365782,
   "entries": [
     {
       "run_id": "1786225457_c372017a_ethrex-openvm",
       "timestamp": 1786225457,
       "timestamp_end": 1786260258,
-      "suite_hash": "eccdf54bb2f7de28",
+      "suite_hash": "dfad8a2018340561",
       "instance": {
         "id": "ethrex-openvm",
         "client": "provoor",
@@ -36,7 +36,7 @@
       "run_id": "1786203282_dc746039_reth-openvm",
       "timestamp": 1786203282,
       "timestamp_end": 1786225457,
-      "suite_hash": "eccdf54bb2f7de28",
+      "suite_hash": "dfad8a2018340561",
       "instance": {
         "id": "reth-openvm",
         "client": "provoor",
