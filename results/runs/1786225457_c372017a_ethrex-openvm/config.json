@@ -28,15 +28,15 @@
     "command": [
       "serve",
       "--zkvm=openvm",
-      "--guest=ethrex",
-      "--guest-elf=https://github.com/eth-act/ere-guests/releases/download/v0.15.0/stateless-validator-ethrex-openvm-v2.1.0-preview.elf",
-      "--cluster-endpoint=http://NODE1_IP:3000"
+      "--stateless-validator=ethrex",
+      "--elf=https://github.com/eth-act/ere-guests/releases/download/v0.15.0/stateless-validator-ethrex-openvm-v2.1.0-preview.elf",
+      "--coordinator-endpoint=http://NODE1_IP:3000"
     ],
     "extra_args": [
       "--zkvm=openvm",
-      "--guest=ethrex",
-      "--guest-elf=https://github.com/eth-act/ere-guests/releases/download/v0.15.0/stateless-validator-ethrex-openvm-v2.1.0-preview.elf",
-      "--cluster-endpoint=http://NODE1_IP:3000"
+      "--stateless-validator=ethrex",
+      "--elf=https://github.com/eth-act/ere-guests/releases/download/v0.15.0/stateless-validator-ethrex-openvm-v2.1.0-preview.elf",
+      "--coordinator-endpoint=http://NODE1_IP:3000"
     ],
     "pull_policy": "always",
     "client_version": "stateless-validator-ethrex-openvm-v2.1.0-preview",
@@ -44,7 +44,7 @@
   },
   "metadata": {
     "labels": {
-      "guest": "ethrex",
+      "stateless_validator": "ethrex",
       "zkvm": "openvm"
     }
   },

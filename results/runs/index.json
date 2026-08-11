@@ -28,7 +28,7 @@
       },
       "status": "completed",
       "metadata": {
-        "guest": "ethrex",
+        "stateless_validator": "ethrex",
         "zkvm": "openvm"
       }
     },
@@ -59,7 +59,7 @@
       },
       "status": "completed",
       "metadata": {
-        "guest": "reth",
+        "stateless_validator": "reth",
         "zkvm": "openvm"
       }
     }
