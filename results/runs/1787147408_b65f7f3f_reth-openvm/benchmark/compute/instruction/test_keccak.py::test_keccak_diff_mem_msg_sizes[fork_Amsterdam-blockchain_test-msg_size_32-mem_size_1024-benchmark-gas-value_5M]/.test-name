@@ -1,0 +1,1 @@
+benchmark/compute/instruction/test_keccak.py::test_keccak_diff_mem_msg_sizes[fork_Amsterdam-blockchain_test-msg_size_32-mem_size_1024-benchmark-gas-value_5M]

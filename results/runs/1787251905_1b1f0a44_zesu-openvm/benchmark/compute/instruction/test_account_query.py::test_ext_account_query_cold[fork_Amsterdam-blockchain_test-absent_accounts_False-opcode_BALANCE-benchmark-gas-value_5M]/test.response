@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"proof 27c23905843315eaa1c998dda44167a6 failed: step 'unknown' failed: Not enough available app workers for parallel proving of program-49c817c4cc43f875@v0: need 2, have 1"}}

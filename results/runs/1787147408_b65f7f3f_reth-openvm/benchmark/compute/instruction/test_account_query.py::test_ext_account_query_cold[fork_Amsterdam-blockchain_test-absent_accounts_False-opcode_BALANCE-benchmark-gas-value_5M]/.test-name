@@ -1,0 +1,1 @@
+benchmark/compute/instruction/test_account_query.py::test_ext_account_query_cold[fork_Amsterdam-blockchain_test-absent_accounts_False-opcode_BALANCE-benchmark-gas-value_5M]

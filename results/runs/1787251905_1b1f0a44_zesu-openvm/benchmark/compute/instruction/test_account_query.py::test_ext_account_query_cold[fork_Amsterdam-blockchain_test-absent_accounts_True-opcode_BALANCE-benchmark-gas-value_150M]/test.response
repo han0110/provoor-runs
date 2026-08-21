@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"streaming proof bcd346d6f60c3470671a16281d79c7c4 status: status 404: {\"error\":\"Proof not found\"}"}}

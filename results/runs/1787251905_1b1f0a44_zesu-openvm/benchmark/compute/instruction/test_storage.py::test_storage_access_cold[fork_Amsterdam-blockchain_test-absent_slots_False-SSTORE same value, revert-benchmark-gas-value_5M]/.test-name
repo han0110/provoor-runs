@@ -1,0 +1,1 @@
+benchmark/compute/instruction/test_storage.py::test_storage_access_cold[fork_Amsterdam-blockchain_test-absent_slots_False-SSTORE same value, revert-benchmark-gas-value_5M]

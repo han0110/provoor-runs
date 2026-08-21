@@ -1,0 +1,1 @@
+benchmark/compute/scenario/test_transaction_types.py::test_auth_transaction[fork_Amsterdam-blockchain_test-transfer_amount_False-empty_account_True-zero_delegation_True-empty_authority_False-benchmark-gas-value_60M]
