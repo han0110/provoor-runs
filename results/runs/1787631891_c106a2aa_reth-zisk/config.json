@@ -1,0 +1,59 @@
+{
+  "benchmarkoor_version": "3781c11",
+  "timestamp": 1787631891,
+  "timestamp_end": 1787673629,
+  "suite_hash": "cf84ab2ae086c1e0",
+  "system": {
+    "hostname": "NODE1_HOSTNAME",
+    "os": "linux",
+    "platform": "ubuntu",
+    "platform_version": "24.04",
+    "kernel_version": "6.8.0-137-generic",
+    "arch": "x86_64",
+    "virtualization": "kvm",
+    "virtualization_role": "host",
+    "cpu_vendor": "AuthenticAMD",
+    "cpu_model": "AMD Ryzen Threadripper PRO 9975WX 32-Cores",
+    "cpu_cores": 32,
+    "cpu_mhz": 5484,
+    "cpu_cache_kb": 1024,
+    "memory_total_gb": 125.15373611450195
+  },
+  "instance": {
+    "id": "reth-zisk",
+    "client": "provoor",
+    "container_runtime": "docker",
+    "image": "ghcr.io/han0110/provoor/provoor:latest",
+    "image_sha256": "sha256:f9a33b9780944ae7052108c9f4c4da820d6644ce75ccefc3f4c07de5ec0af93f",
+    "command": [
+      "serve",
+      "--zkvm=zisk",
+      "--stateless-validator=reth",
+      "--elf=https://github.com/eth-act/ere-guests/releases/download/v0.16.0/stateless-validator-reth-zisk-v1.1.0-alpha.elf",
+      "--vk=https://github.com/eth-act/ere-guests/releases/download/v0.16.0/stateless-validator-reth-zisk-v1.1.0-alpha.vk",
+      "--coordinator-endpoint=http://NODE1_IP:7000"
+    ],
+    "extra_args": [
+      "--zkvm=zisk",
+      "--stateless-validator=reth",
+      "--elf=https://github.com/eth-act/ere-guests/releases/download/v0.16.0/stateless-validator-reth-zisk-v1.1.0-alpha.elf",
+      "--vk=https://github.com/eth-act/ere-guests/releases/download/v0.16.0/stateless-validator-reth-zisk-v1.1.0-alpha.vk",
+      "--coordinator-endpoint=http://NODE1_IP:7000"
+    ],
+    "pull_policy": "always",
+    "client_version": "stateless-validator-reth-zisk-v1.1.0-alpha",
+    "rollback_strategy": "rpc-debug-setHead"
+  },
+  "metadata": {
+    "labels": {
+      "stateless_validator": "reth",
+      "zkvm": "zisk"
+    }
+  },
+  "test_counts": {
+    "total": 7349,
+    "passed": 7172,
+    "failed": 177
+  },
+  "status": "completed"
+}

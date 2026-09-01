@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"job 24daa1e3-80fb-409e-9dc6-975b25719c58 failed: execution: Task execution failed on worker WorkerId(worker_3…): contribution task panicked"}}

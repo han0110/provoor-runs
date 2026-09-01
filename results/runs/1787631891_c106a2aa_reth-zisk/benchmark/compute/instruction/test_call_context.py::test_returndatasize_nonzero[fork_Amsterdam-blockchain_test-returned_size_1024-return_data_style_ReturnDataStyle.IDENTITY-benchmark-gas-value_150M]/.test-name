@@ -1,0 +1,1 @@
+benchmark/compute/instruction/test_call_context.py::test_returndatasize_nonzero[fork_Amsterdam-blockchain_test-returned_size_1024-return_data_style_ReturnDataStyle.IDENTITY-benchmark-gas-value_150M]

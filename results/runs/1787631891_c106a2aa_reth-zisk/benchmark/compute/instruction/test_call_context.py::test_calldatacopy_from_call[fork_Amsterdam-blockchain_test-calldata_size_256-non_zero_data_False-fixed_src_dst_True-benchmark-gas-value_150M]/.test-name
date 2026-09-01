@@ -1,0 +1,1 @@
+benchmark/compute/instruction/test_call_context.py::test_calldatacopy_from_call[fork_Amsterdam-blockchain_test-calldata_size_256-non_zero_data_False-fixed_src_dst_True-benchmark-gas-value_150M]
