@@ -1,0 +1,64 @@
+{
+  "benchmarkoor_version": "6527f3c",
+  "timestamp": 1788363494,
+  "timestamp_end": 1788377698,
+  "suite_hash": "f585281e3fea89a8",
+  "system": {
+    "hostname": "NODE1_HOSTNAME",
+    "os": "linux",
+    "platform": "ubuntu",
+    "platform_version": "24.04",
+    "kernel_version": "6.8.0-138-generic",
+    "arch": "x86_64",
+    "virtualization": "kvm",
+    "virtualization_role": "host",
+    "cpu_vendor": "AuthenticAMD",
+    "cpu_model": "AMD Ryzen Threadripper PRO 9975WX 32-Cores",
+    "cpu_cores": 32,
+    "cpu_mhz": 5484,
+    "cpu_cache_kb": 1024,
+    "memory_total_gb": 125.15373611450195
+  },
+  "instance": {
+    "id": "reth-openvm",
+    "client": "provoor",
+    "container_runtime": "docker",
+    "image": "ghcr.io/han0110/provoor/provoor:latest",
+    "image_sha256": "sha256:4c6f413afa204c6e70af85f989917baf8b32a7b27b898913a39bb3e94754fc78",
+    "command": [
+      "serve",
+      "--zkvm=openvm",
+      "--stateless-validator=reth",
+      "--elf=https://github.com/paradigmxyz/stateless/releases/download/reth-guest-v0.1.0-rc.2/stateless-validator-reth-openvm-v2.1.0-preview.elf",
+      "--vk=https://github.com/paradigmxyz/stateless/releases/download/reth-guest-v0.1.0-rc.2/stateless-validator-reth-openvm-v2.1.0-preview.vk",
+      "--coordinator-endpoint=http://NODE1_IP:3000"
+    ],
+    "extra_args": [
+      "--zkvm=openvm",
+      "--stateless-validator=reth",
+      "--elf=https://github.com/paradigmxyz/stateless/releases/download/reth-guest-v0.1.0-rc.2/stateless-validator-reth-openvm-v2.1.0-preview.elf",
+      "--vk=https://github.com/paradigmxyz/stateless/releases/download/reth-guest-v0.1.0-rc.2/stateless-validator-reth-openvm-v2.1.0-preview.vk",
+      "--coordinator-endpoint=http://NODE1_IP:3000"
+    ],
+    "pull_policy": "always",
+    "client_version": "stateless-validator-reth-openvm-v2.1.0-preview",
+    "rollback_strategy": "rpc-debug-setHead"
+  },
+  "metadata": {
+    "labels": {
+      "stateless_validator": "reth",
+      "zkvm": "openvm"
+    }
+  },
+  "start_block": {
+    "number": 0,
+    "hash": "",
+    "state_root": ""
+  },
+  "test_counts": {
+    "total": 3464,
+    "passed": 3463,
+    "failed": 1
+  },
+  "status": "completed"
+}
