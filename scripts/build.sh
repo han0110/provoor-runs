@@ -77,9 +77,32 @@ printf '{ "dataSource": "%sresults", "title": "zkVM Benchmarks" }\n' "${BASE_PAT
 cp "${SITE_DIR}/index.html" "${SITE_DIR}/404.html"
 
 if [[ "${SERVE}" == true ]]; then
-    # Serve under BASE_PATH so the preview matches the deployed URL layout.
+    # Serve under BASE_PATH so the preview matches the deployed URL layout. A
+    # path with no file answers 404 with the app as the body, the way GitHub
+    # Pages does, so a deep link survives a reload and a probe for a missing
+    # artifact still reads 404.
     serve_root="$(mktemp -d)"
     ln -s "${SITE_DIR}" "${serve_root}/${PAGES_PATH}"
     echo "Serving http://localhost:3002${BASE_PATH}"
-    python3 -m http.server 3002 --bind 0.0.0.0 -d "${serve_root}"
+    python3 - "${serve_root}" "${SITE_DIR}/404.html" <<'EOF'
+import http.server, io, os, sys
+
+root, fallback = sys.argv[1], sys.argv[2]
+
+class Handler(http.server.SimpleHTTPRequestHandler):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, directory=root, **kwargs)
+
+    def send_head(self):
+        if os.path.exists(self.translate_path(self.path)):
+            return super().send_head()
+        body = open(fallback, "rb").read()
+        self.send_response(404)
+        self.send_header("Content-Type", "text/html")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        return io.BytesIO(body)
+
+http.server.ThreadingHTTPServer(("0.0.0.0", 3002), Handler).serve_forever()
+EOF
 fi
