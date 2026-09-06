@@ -1,0 +1,22 @@
+{
+  "time_total": 774254495,
+  "gas_used_total": 30000000,
+  "gas_used_time_total": 774254495,
+  "success": 1,
+  "fail": 0,
+  "msg_count": 1,
+  "method_stats": {
+    "times": {
+      "engine_proveStatelessValidator": {
+        "count": 1,
+        "last": 774254495
+      }
+    },
+    "mgas_s": {
+      "engine_proveStatelessValidator": {
+        "count": 1,
+        "last": 38.74694973517719
+      }
+    }
+  }
+}
