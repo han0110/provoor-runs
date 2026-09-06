@@ -71,7 +71,11 @@ fi
 (cd "${BENCHMARKOOR_DIR}/ui" && npm ci && npx vite build --base "${BASE_PATH}" --outDir "${SITE_DIR}" --emptyOutDir)
 
 mkdir "${SITE_DIR}/results"
-cp -a "${RESULTS_DIR}/." "${SITE_DIR}/results/"
+# The results are hard linked, so the site holds no second copy of them. The
+# site never edits a file it links, and a delete below drops only its own name.
+cp -al "${RESULTS_DIR}/." "${SITE_DIR}/results/"
+# The runner logs of a run serve local debugging only, so the site drops them.
+find "${SITE_DIR}/results" -name '*.log' -delete
 printf '{ "dataSource": "%sresults", "title": "zkVM Benchmarks" }\n' "${BASE_PATH}" > "${SITE_DIR}/config.json"
 # Deep links boot the app through the GitHub Pages 404 fallback.
 cp "${SITE_DIR}/index.html" "${SITE_DIR}/404.html"
@@ -83,7 +87,7 @@ if [[ "${SERVE}" == true ]]; then
     # artifact still reads 404.
     serve_root="$(mktemp -d)"
     ln -s "${SITE_DIR}" "${serve_root}/${PAGES_PATH}"
-    echo "Serving http://localhost:3002${BASE_PATH}"
+    echo "Serving http://0.0.0.0:3002${BASE_PATH}"
     python3 - "${serve_root}" "${SITE_DIR}/404.html" <<'EOF'
 import http.server, io, os, sys
 

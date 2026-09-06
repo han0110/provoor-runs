@@ -1,1 +1,4 @@
 /site/
+
+# The runner logs of a run, which scripts/sync.sh pulls for local debugging.
+/results/runs/*/*.log
