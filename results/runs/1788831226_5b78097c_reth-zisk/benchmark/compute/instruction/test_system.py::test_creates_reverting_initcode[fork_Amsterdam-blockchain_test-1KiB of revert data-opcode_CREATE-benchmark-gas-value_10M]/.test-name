@@ -1,0 +1,1 @@
+benchmark/compute/instruction/test_system.py::test_creates_reverting_initcode[fork_Amsterdam-blockchain_test-1KiB of revert data-opcode_CREATE-benchmark-gas-value_10M]

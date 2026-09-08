@@ -1,0 +1,1 @@
+benchmark/compute/instruction/test_system.py::test_contract_calling_many_addresses[fork_Amsterdam-blockchain_test-access_warm_True-opcode_CALL-transfer_amount_1-benchmark-gas-value_60M]

@@ -1,0 +1,1 @@
+benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_1-opcode_MSTORE8-benchmark-gas-value_60M]
