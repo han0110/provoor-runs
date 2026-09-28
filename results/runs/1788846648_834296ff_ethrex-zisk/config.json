@@ -47,7 +47,8 @@
   "metadata": {
     "labels": {
       "stateless_validator": "ethrex",
-      "zkvm": "zisk"
+      "zkvm": "zisk",
+      "zkvm_version": "v1.2.0-alpha"
     }
   },
   "start_block": {

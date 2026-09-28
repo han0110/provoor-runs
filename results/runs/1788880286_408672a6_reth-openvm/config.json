@@ -47,7 +47,8 @@
   "metadata": {
     "labels": {
       "stateless_validator": "reth",
-      "zkvm": "openvm"
+      "zkvm": "openvm",
+      "zkvm_version": "v2.1.0-preview"
     }
   },
   "start_block": {
