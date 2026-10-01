@@ -29,15 +29,15 @@
       "serve",
       "--zkvm=zisk",
       "--stateless-validator=ethrex",
-      "--elf=https://raw.githubusercontent.com/han0110/provoor/refs/heads/main/elfs/stateless-validator-ethrex-zisk-v1.3.0-alpha.elf",
-      "--vk=https://raw.githubusercontent.com/han0110/provoor/refs/heads/main/elfs/stateless-validator-ethrex-zisk-v1.3.0-alpha.vk",
+      "--elf=https://raw.githubusercontent.com/han0110/provoor/2073703e720a756a66555012acd5fc52c80d8130/elfs/stateless-validator-ethrex-zisk-v1.3.0-alpha.elf",
+      "--vk=https://raw.githubusercontent.com/han0110/provoor/2073703e720a756a66555012acd5fc52c80d8130/elfs/stateless-validator-ethrex-zisk-v1.3.0-alpha.vk",
       "--coordinator-endpoint=http://NODE1_IP:7000"
     ],
     "extra_args": [
       "--zkvm=zisk",
       "--stateless-validator=ethrex",
-      "--elf=https://raw.githubusercontent.com/han0110/provoor/refs/heads/main/elfs/stateless-validator-ethrex-zisk-v1.3.0-alpha.elf",
-      "--vk=https://raw.githubusercontent.com/han0110/provoor/refs/heads/main/elfs/stateless-validator-ethrex-zisk-v1.3.0-alpha.vk",
+      "--elf=https://raw.githubusercontent.com/han0110/provoor/2073703e720a756a66555012acd5fc52c80d8130/elfs/stateless-validator-ethrex-zisk-v1.3.0-alpha.elf",
+      "--vk=https://raw.githubusercontent.com/han0110/provoor/2073703e720a756a66555012acd5fc52c80d8130/elfs/stateless-validator-ethrex-zisk-v1.3.0-alpha.vk",
       "--coordinator-endpoint=http://NODE1_IP:7000"
     ],
     "pull_policy": "always",
