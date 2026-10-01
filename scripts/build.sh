@@ -46,6 +46,7 @@ done
 
 (cd "${BENCHMARKOOR_DIR}" \
     && CGO_ENABLED=0 go run -tags "${GO_BUILD_TAGS}" ./cmd/benchmarkoor generate-index-file --method local --results-dir "${RESULTS_DIR}" \
+    && CGO_ENABLED=0 go run -tags "${GO_BUILD_TAGS}" ./cmd/benchmarkoor generate-estimate-index-file --results-dir "${RESULTS_DIR}" \
     && CGO_ENABLED=0 go run -tags "${GO_BUILD_TAGS}" ./cmd/benchmarkoor generate-suite-stats-file --method local --results-dir "${RESULTS_DIR}")
 
 # Vite copies ui/public into the output and follows its results symlink,
