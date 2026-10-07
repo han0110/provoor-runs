@@ -1,0 +1,66 @@
+{
+  "benchmarkoor_version": "mainnet-stateless-inputs-25950000-25959999-47-g6669dff",
+  "timestamp": 1791354632,
+  "timestamp_end": 1791357703,
+  "suite_hash": "e38b4246ba5119d8",
+  "system": {
+    "hostname": "NODE1_HOSTNAME",
+    "os": "linux",
+    "platform": "ubuntu",
+    "platform_version": "24.04",
+    "kernel_version": "6.8.0-139-generic",
+    "arch": "x86_64",
+    "virtualization": "kvm",
+    "virtualization_role": "host",
+    "cpu_vendor": "AuthenticAMD",
+    "cpu_model": "AMD Ryzen Threadripper PRO 9975WX 32-Cores",
+    "cpu_cores": 32,
+    "cpu_mhz": 5484,
+    "cpu_cache_kb": 1024,
+    "memory_total_gb": 125.15371704101562
+  },
+  "instance": {
+    "id": "reth-openvm",
+    "client": "provoor",
+    "container_runtime": "docker",
+    "image": "ghcr.io/han0110/provoor/provoor:latest",
+    "image_sha256": "sha256:ed1a28ea9d8c2edb8d37c041f7a40d12cee70192e43d47fe99625d196922a4e2",
+    "command": [
+      "serve",
+      "--zkvm=openvm",
+      "--stateless-validator=reth",
+      "--elf=https://github.com/eth-act/ere-guests/releases/download/v0.18.0/stateless-validator-reth-openvm-v2.1.0-preview.elf",
+      "--vk=https://github.com/eth-act/ere-guests/releases/download/v0.18.0/stateless-validator-reth-openvm-v2.1.0-preview.vk",
+      "--coordinator-endpoint=http://NODE1_IP:3000"
+    ],
+    "extra_args": [
+      "--zkvm=openvm",
+      "--stateless-validator=reth",
+      "--elf=https://github.com/eth-act/ere-guests/releases/download/v0.18.0/stateless-validator-reth-openvm-v2.1.0-preview.elf",
+      "--vk=https://github.com/eth-act/ere-guests/releases/download/v0.18.0/stateless-validator-reth-openvm-v2.1.0-preview.vk",
+      "--coordinator-endpoint=http://NODE1_IP:3000"
+    ],
+    "pull_policy": "always",
+    "client_version": "stateless-validator-reth-openvm-v2.1.0-preview",
+    "rollback_strategy": "rpc-debug-setHead"
+  },
+  "metadata": {
+    "labels": {
+      "stateless_validator": "reth",
+      "stateless_validator_version": "v0.1.0-rc.4",
+      "zkvm": "openvm",
+      "zkvm_version": "v2.1.0-preview"
+    }
+  },
+  "start_block": {
+    "number": 0,
+    "hash": "",
+    "state_root": ""
+  },
+  "test_counts": {
+    "total": 1000,
+    "passed": 960,
+    "failed": 40
+  },
+  "status": "completed"
+}
