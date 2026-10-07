@@ -1,6 +1,72 @@
 {
-  "generated": 1790574584,
+  "generated": 1791339575,
   "entries": [
+    {
+      "run_id": "1791273078_b0d1238e_ethrex-zisk",
+      "timestamp": 1791273078,
+      "timestamp_end": 1791331959,
+      "suite_hash": "75f54cf0b51e8d30",
+      "instance": {
+        "id": "ethrex-zisk",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:latest",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 4851,
+        "tests_passed": 4217,
+        "tests_failed": 634,
+        "steps": {
+          "test": {
+            "success": 4217,
+            "fail": 634,
+            "duration": 58558983536950,
+            "gas_used": 507114784159,
+            "gas_used_duration": 26679545482093
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "ethrex",
+        "stateless_validator_version": "v26.0.0-rc.1",
+        "zkvm": "zisk",
+        "zkvm_version": "v1.3.1-alpha"
+      }
+    },
+    {
+      "run_id": "1791215725_9e11cddd_reth-zisk",
+      "timestamp": 1791215725,
+      "timestamp_end": 1791273062,
+      "suite_hash": "75f54cf0b51e8d30",
+      "instance": {
+        "id": "reth-zisk",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:latest",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 4851,
+        "tests_passed": 4193,
+        "tests_failed": 658,
+        "steps": {
+          "test": {
+            "success": 4193,
+            "fail": 658,
+            "duration": 57098863293882,
+            "gas_used": 498711382492,
+            "gas_used_duration": 25686793787771
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "reth",
+        "stateless_validator_version": "v0.1.0-rc.3",
+        "zkvm": "zisk",
+        "zkvm_version": "v1.3.1-alpha"
+      }
+    },
     {
       "run_id": "1790419247_ea1f1b70_zesu-zisk",
       "timestamp": 1790419247,

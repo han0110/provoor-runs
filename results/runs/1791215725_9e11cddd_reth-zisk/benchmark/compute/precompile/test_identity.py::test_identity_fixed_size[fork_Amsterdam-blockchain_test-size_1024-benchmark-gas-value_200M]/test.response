@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"job 727801ba-482d-4419-a344-d85083ac66a0 failed: execution: Task execution failed on worker WorkerId(worker_0…): Failed to generate proof"}}
