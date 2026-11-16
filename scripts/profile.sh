@@ -156,7 +156,20 @@ run() {
         git -C "${REPO_DIR}" fetch -q --depth 1 origin "${branch}"
         git -C "${REPO_DIR}" checkout -q -B "${branch}" FETCH_HEAD
     else
-        git -C "${REPO_DIR}" checkout -q -B "${branch}"
+        # A queued job can start after main moved past its checkout. The
+        # latest main gives the push a base that origin advertises, and it can
+        # hold the complete profile already.
+        git -C "${REPO_DIR}" fetch -q --depth 1 origin main
+        git -C "${REPO_DIR}" checkout -q -B "${branch}" FETCH_HEAD
+        status="$("${PROVOOR}" profile status "${RUNS_DIR}/${id}")"
+        if [[ "$(jq -r .missing_files <<< "${status}")" != 0 ]]; then
+            echo "error: profiled tests of ${id} on main have no pprof file" >&2
+            exit 1
+        fi
+        if [[ "$(jq -r .pending <<< "${status}")" == 0 ]]; then
+            echo "the profile of ${id} is complete on main"
+            return
+        fi
         git -C "${REPO_DIR}" commit -q --allow-empty -m "chore: start the profile of ${id}"
         git -C "${REPO_DIR}" push -q --force-with-lease="refs/heads/${branch}:${remote_head}" origin "HEAD:${branch}"
     fi

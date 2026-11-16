@@ -68,11 +68,8 @@ jobs:
       # Profiling stops 5.5 hours after the job starts, which leaves time to
       # publish the last slice before the 6 hour job limit.
       - run: echo "DEADLINE=$(( $(date +%s) + 19800 ))" >> "${GITHUB_ENV}"
-      # The EEST fixtures need 14 GB, so the preinstalled toolchains go.
-      - run: |
-          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL
-          docker system prune -af
-          df -h /
+      # A run needs about 18.5 GB for the fixtures, the image, and the checkout.
+      - run: df -h /
       - uses: actions/checkout@v7
       - uses: actions/download-artifact@v8
         with:
@@ -86,5 +83,3 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           scripts/profile.sh run "${RUN_ID}" "${DEADLINE}"
-      - if: always()
-        run: df -h /
