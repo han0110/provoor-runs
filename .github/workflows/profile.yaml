@@ -34,6 +34,7 @@ jobs:
         with:
           go-version-file: provoor/go.mod
           cache-dependency-path: provoor/go.sum
+      - run: provoor/scripts/fetch-verifier.sh
       - run: (cd provoor && go build -o ../provoor-bin ./cmd/provoor)
       - uses: actions/upload-artifact@v7
         with:
