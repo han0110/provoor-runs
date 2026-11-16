@@ -1,0 +1,89 @@
+name: profile
+
+# Profiles every run that lacks a complete profile, one draft pull request per
+# run. A job stops after a budget below the 6 hour job limit, and the next
+# scheduled scan continues the run from its pull request branch.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      runs: ${{ steps.scan.outputs.runs }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+        with:
+          repository: han0110/provoor
+          path: provoor
+      # The checkout skips the provoor-runs submodule, since go.mod needs only
+      # benchmarkoor.
+      - run: git -C provoor submodule update --init --depth 1 benchmarkoor
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: provoor/go.mod
+          cache-dependency-path: provoor/go.sum
+      - run: (cd provoor && go build -o ../provoor-bin ./cmd/provoor)
+      - uses: actions/upload-artifact@v7
+        with:
+          name: provoor
+          path: provoor-bin
+      - id: scan
+        env:
+          PROVOOR: ${{ github.workspace }}/provoor-bin
+          GH_TOKEN: ${{ github.token }}
+        # A separate assignment keeps the exit status of the scan.
+        run: |
+          runs="$(scripts/profile.sh scan)"
+          echo "runs=${runs}" >> "${GITHUB_OUTPUT}"
+
+  profile:
+    needs: scan
+    if: needs.scan.outputs.runs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    permissions:
+      contents: write
+      pull-requests: write
+    strategy:
+      fail-fast: false
+      matrix:
+        run: ${{ fromJSON(needs.scan.outputs.runs) }}
+    concurrency:
+      group: profile-${{ matrix.run }}
+      cancel-in-progress: false
+    steps:
+      # Profiling stops 5.5 hours after the job starts, which leaves time to
+      # publish the last slice before the 6 hour job limit.
+      - run: echo "DEADLINE=$(( $(date +%s) + 19800 ))" >> "${GITHUB_ENV}"
+      # The EEST fixtures need 14 GB, so the preinstalled toolchains go.
+      - run: |
+          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL
+          docker system prune -af
+          df -h /
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
+        with:
+          name: provoor
+      - run: chmod +x provoor-bin
+      - env:
+          PROVOOR: ${{ github.workspace }}/provoor-bin
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ matrix.run }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          scripts/profile.sh run "${RUN_ID}" "${DEADLINE}"
+      - if: always()
+        run: df -h /
