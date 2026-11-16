@@ -1,0 +1,1 @@
+benchmark/compute/instruction/test_storage.py::test_nested_frame_state_access[fork_Amsterdam-blockchain_test-opcode_SLOAD-depth_1-revert_False-benchmark-gas-value_150M]

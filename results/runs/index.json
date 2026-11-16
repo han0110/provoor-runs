@@ -1,6 +1,138 @@
 {
-  "generated": 1792898793,
+  "generated": 1794801305,
   "entries": [
+    {
+      "run_id": "1794738490_18e56a30_nethermind-zisk",
+      "timestamp": 1794738490,
+      "timestamp_end": 1794781756,
+      "suite_hash": "75f54cf0b51e8d30",
+      "instance": {
+        "id": "nethermind-zisk",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:0.12.0",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 4851,
+        "tests_passed": 4452,
+        "tests_failed": 399,
+        "steps": {
+          "test": {
+            "success": 4452,
+            "fail": 399,
+            "duration": 42917784964440,
+            "gas_used": 543678016778,
+            "gas_used_duration": 23248977147668
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "nethermind",
+        "stateless_validator_version": "v2.3.0-preview+3",
+        "zkvm": "zisk",
+        "zkvm_version": "v1.3.2-alpha"
+      }
+    },
+    {
+      "run_id": "1794691563_e0b634f6_zesu-zisk",
+      "timestamp": 1794691563,
+      "timestamp_end": 1794738473,
+      "suite_hash": "75f54cf0b51e8d30",
+      "instance": {
+        "id": "zesu-zisk",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:0.12.0",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 4851,
+        "tests_passed": 4431,
+        "tests_failed": 420,
+        "steps": {
+          "test": {
+            "success": 4431,
+            "fail": 420,
+            "duration": 46556045769342,
+            "gas_used": 542698679569,
+            "gas_used_duration": 26222287777782
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "zesu",
+        "stateless_validator_version": "tests@v21.0.5",
+        "zkvm": "zisk",
+        "zkvm_version": "v1.3.2-alpha"
+      }
+    },
+    {
+      "run_id": "1794633036_2d222c67_ethrex-zisk",
+      "timestamp": 1794633036,
+      "timestamp_end": 1794691546,
+      "suite_hash": "75f54cf0b51e8d30",
+      "instance": {
+        "id": "ethrex-zisk",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:0.12.0",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 4851,
+        "tests_passed": 4226,
+        "tests_failed": 625,
+        "steps": {
+          "test": {
+            "success": 4226,
+            "fail": 625,
+            "duration": 58197639308396,
+            "gas_used": 508324415139,
+            "gas_used_duration": 26937024070427
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "ethrex",
+        "stateless_validator_version": "v30.0.1",
+        "zkvm": "zisk",
+        "zkvm_version": "v1.3.2-alpha"
+      }
+    },
+    {
+      "run_id": "1794363314_33b9f839_reth-zisk",
+      "timestamp": 1794363314,
+      "timestamp_end": 1794421874,
+      "suite_hash": "75f54cf0b51e8d30",
+      "instance": {
+        "id": "reth-zisk",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:0.12.0",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 4851,
+        "tests_passed": 4193,
+        "tests_failed": 658,
+        "steps": {
+          "test": {
+            "success": 4193,
+            "fail": 658,
+            "duration": 58270265467468,
+            "gas_used": 498711382492,
+            "gas_used_duration": 25799635000782
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "reth",
+        "stateless_validator_version": "v0.1.0-rc.6",
+        "zkvm": "zisk",
+        "zkvm_version": "v1.3.2-alpha"
+      }
+    },
     {
       "run_id": "1791273078_b0d1238e_ethrex-zisk",
       "timestamp": 1791273078,

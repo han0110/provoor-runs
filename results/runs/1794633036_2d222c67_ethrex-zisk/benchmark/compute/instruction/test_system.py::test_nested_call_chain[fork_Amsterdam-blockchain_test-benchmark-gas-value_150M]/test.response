@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":1,"error":{"code":-32000,"message":"job 92b420fb-e5ea-473d-973c-c9f8786d1fe4 failed: execution: Worker WorkerId(worker_0…) connection dropped"}}

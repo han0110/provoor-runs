@@ -1,0 +1,66 @@
+{
+  "benchmarkoor_version": "mainnet-stateless-inputs-25950000-25959999-51-g596a6d4",
+  "timestamp": 1794363314,
+  "timestamp_end": 1794421874,
+  "suite_hash": "75f54cf0b51e8d30",
+  "system": {
+    "hostname": "NODE1_HOST",
+    "os": "linux",
+    "platform": "ubuntu",
+    "platform_version": "24.04",
+    "kernel_version": "6.8.0-147-generic",
+    "arch": "x86_64",
+    "virtualization": "kvm",
+    "virtualization_role": "host",
+    "cpu_vendor": "AuthenticAMD",
+    "cpu_model": "AMD Ryzen Threadripper PRO 9975WX 32-Cores",
+    "cpu_cores": 32,
+    "cpu_mhz": 5484,
+    "cpu_cache_kb": 1024,
+    "memory_total_gb": 125.15371704101562
+  },
+  "instance": {
+    "id": "reth-zisk",
+    "client": "provoor",
+    "container_runtime": "docker",
+    "image": "ghcr.io/han0110/provoor/provoor:0.12.0",
+    "image_sha256": "sha256:30e3de91665d920ae2284a6cd5dc50653092a78b96ec8767c7a9706258483b51",
+    "command": [
+      "serve",
+      "--zkvm=zisk",
+      "--stateless-validator=reth",
+      "--elf=https://github.com/eth-act/ere-guests/releases/download/v0.19.1/stateless-validator-reth-zisk-v1.3.2-alpha.elf",
+      "--vk=https://github.com/eth-act/ere-guests/releases/download/v0.19.1/stateless-validator-reth-zisk-v1.3.2-alpha.vk",
+      "--coordinator-endpoint=http://NODE1_IP:7000"
+    ],
+    "extra_args": [
+      "--zkvm=zisk",
+      "--stateless-validator=reth",
+      "--elf=https://github.com/eth-act/ere-guests/releases/download/v0.19.1/stateless-validator-reth-zisk-v1.3.2-alpha.elf",
+      "--vk=https://github.com/eth-act/ere-guests/releases/download/v0.19.1/stateless-validator-reth-zisk-v1.3.2-alpha.vk",
+      "--coordinator-endpoint=http://NODE1_IP:7000"
+    ],
+    "pull_policy": "always",
+    "client_version": "stateless-validator-reth-zisk-v1.3.2-alpha",
+    "rollback_strategy": "rpc-debug-setHead"
+  },
+  "metadata": {
+    "labels": {
+      "stateless_validator": "reth",
+      "stateless_validator_version": "v0.1.0-rc.6",
+      "zkvm": "zisk",
+      "zkvm_version": "v1.3.2-alpha"
+    }
+  },
+  "start_block": {
+    "number": 0,
+    "hash": "",
+    "state_root": ""
+  },
+  "test_counts": {
+    "total": 4851,
+    "passed": 4193,
+    "failed": 658
+  },
+  "status": "completed"
+}
