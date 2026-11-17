@@ -10477,6 +10477,556 @@
       },
       "peak_heap_bytes": 23337200,
       "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140950_2f2fb40e5582fb09b892e76d0f92db883a217f1a28d1a5a24985903827929d6f": {
+      "cost": {
+        "base": 287309824,
+        "main": 46625953720,
+        "memory": 7336785103,
+        "opcode": 6894001853,
+        "precompile": 2735084268
+      },
+      "peak_heap_bytes": 25364816,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140951_b9b5d742a3ab7db6bbd1a6b68e1a426fe6f90b199d7829e3e6217094575fbe2c": {
+      "cost": {
+        "base": 287309824,
+        "main": 38735086432,
+        "memory": 6109894297,
+        "opcode": 5773895943,
+        "precompile": 2393653466
+      },
+      "peak_heap_bytes": 22661904,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140952_ed143b9e50546ae2009f432e0e65e0df76effe154b39e0e0015880e4e620eadf": {
+      "cost": {
+        "base": 287309824,
+        "main": 42861434552,
+        "memory": 6945130789,
+        "opcode": 6344660168,
+        "precompile": 2946280863
+      },
+      "peak_heap_bytes": 24624864,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140953_ecb2754408dcc9327e2953c398031dc6ec670dae9daa68e02b2773ea6fd309d8": {
+      "cost": {
+        "base": 287309824,
+        "main": 44413193532,
+        "memory": 7039452140,
+        "opcode": 6553460376,
+        "precompile": 2602790358
+      },
+      "peak_heap_bytes": 22590296,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140954_87349cda281b82ef51a6bb8f5d89ff6f6f35f14a7434dc2f9afe24448837add1": {
+      "cost": {
+        "base": 287309824,
+        "main": 35810600708,
+        "memory": 5757160628,
+        "opcode": 5253855529,
+        "precompile": 2130190463
+      },
+      "peak_heap_bytes": 15829768,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140955_c6c83e775cc78ab0d2ec853ea0d39a1929d86cbdb7dc4f0de69385ee88ad4e9b": {
+      "cost": {
+        "base": 287309824,
+        "main": 47207048944,
+        "memory": 7510527842,
+        "opcode": 7020395949,
+        "precompile": 3054084265
+      },
+      "peak_heap_bytes": 28367904,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140956_b29a269deaa885e3ccdefb23f1f05a069a31d152ec23e826448de2f68ec2cb0d": {
+      "cost": {
+        "base": 287309824,
+        "main": 46094215548,
+        "memory": 7506446649,
+        "opcode": 6914412806,
+        "precompile": 3487491816
+      },
+      "peak_heap_bytes": 32877096,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140957_d90e01257b035aa020d237423ec74d4abaccb2cf02dc5cc1695a8d7db3b916e4": {
+      "cost": {
+        "base": 287309824,
+        "main": 43837374836,
+        "memory": 7009193984,
+        "opcode": 6561622823,
+        "precompile": 3027466457
+      },
+      "peak_heap_bytes": 28633944,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140958_d64a4c97b8f994ecf505099a609419c67fe1e74b3ff0ae28a75a2cc49e0d49bb": {
+      "cost": {
+        "base": 287309824,
+        "main": 42556278024,
+        "memory": 6783380400,
+        "opcode": 6292468393,
+        "precompile": 2600927681
+      },
+      "peak_heap_bytes": 22900184,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140959_134a1b05435244e4528a31961991072d73c92956965675cd45d6d464e4ffff0b": {
+      "cost": {
+        "base": 287309824,
+        "main": 44203327172,
+        "memory": 7117931591,
+        "opcode": 6643772419,
+        "precompile": 3149926573
+      },
+      "peak_heap_bytes": 29679360,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140960_76bd3027f2f117821e66b52c1fb1ab946d456ebe3c73b74b52c0b928777583b8": {
+      "cost": {
+        "base": 287309824,
+        "main": 44641030524,
+        "memory": 7036509926,
+        "opcode": 6592523553,
+        "precompile": 2589868638
+      },
+      "peak_heap_bytes": 23104360,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140961_257bc09caeae347f181c4de27e7f848f13ad1f5eff5b39aee0250b291abc711d": {
+      "cost": {
+        "base": 287309824,
+        "main": 40044335584,
+        "memory": 6263722599,
+        "opcode": 5911220344,
+        "precompile": 2154836462
+      },
+      "peak_heap_bytes": 18742608,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140962_d1b4f0f7e2006bb8c29db180bfa225f023ed50fc8184b5c1161c49e88739f4e4": {
+      "cost": {
+        "base": 287309824,
+        "main": 43688582608,
+        "memory": 7029291292,
+        "opcode": 6525788972,
+        "precompile": 2947276003
+      },
+      "peak_heap_bytes": 27522640,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140963_93be4fc46417bb5e210c2a807bdbe9170c366c3907f2234666c217d7e61afa5a": {
+      "cost": {
+        "base": 287309824,
+        "main": 42067014012,
+        "memory": 6634709039,
+        "opcode": 6197883765,
+        "precompile": 2416309442
+      },
+      "peak_heap_bytes": 21552448,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140964_8ba66a40e8e73073505f0d5fb4547fdf804f15ebe021343156f5684584f72fd7": {
+      "cost": {
+        "base": 287309824,
+        "main": 39792874100,
+        "memory": 6539422790,
+        "opcode": 5956914692,
+        "precompile": 2755298299
+      },
+      "peak_heap_bytes": 24416624,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140965_e8b5014dabf74b2b6816212f28eb0d14c887b94f71981dd7d61ce8f584ebb8f1": {
+      "cost": {
+        "base": 287309824,
+        "main": 41034063004,
+        "memory": 6549813479,
+        "opcode": 5940205258,
+        "precompile": 2078400563
+      },
+      "peak_heap_bytes": 12826584,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140966_f80ff5487e9f01c7260c8a6cd6f0342fdbc7b9ef0699609e1151facf285806b7": {
+      "cost": {
+        "base": 287309824,
+        "main": 49144424568,
+        "memory": 7890770765,
+        "opcode": 7423039768,
+        "precompile": 3624557602
+      },
+      "peak_heap_bytes": 35354272,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140967_23bf982625a29df8ff38426ae951edc918bfbd7e4acc689147a0c768f077ed61": {
+      "cost": {
+        "base": 287309824,
+        "main": 42410895588,
+        "memory": 6643659433,
+        "opcode": 6259520561,
+        "precompile": 2375031167
+      },
+      "peak_heap_bytes": 21286144,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140968_42ff10e8bf4bd45c8f7494be909437c27d1d25a655034674f69731c2a1c462c2": {
+      "cost": {
+        "base": 287309824,
+        "main": 42547955980,
+        "memory": 6849623177,
+        "opcode": 6292127655,
+        "precompile": 2862568670
+      },
+      "peak_heap_bytes": 25835048,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140969_895a42323183c712ac5a0e44bd3440e680cf085b3e49a82aa9477589f1cff9ab": {
+      "cost": {
+        "base": 287309824,
+        "main": 41330037288,
+        "memory": 6455795439,
+        "opcode": 6039858805,
+        "precompile": 2032708849
+      },
+      "peak_heap_bytes": 15633104,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140970_4cc2ae42ba928b6d8799a5b178bea10458da26f10bf7b1a366ef8a865f25f811": {
+      "cost": {
+        "base": 287309824,
+        "main": 47321681848,
+        "memory": 7532231572,
+        "opcode": 7087635939,
+        "precompile": 3009202583
+      },
+      "peak_heap_bytes": 27860928,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140971_02a91d7db6bebbc641d8ca0c601b28fef2e93fddf076bc840fbf8e47203203c6": {
+      "cost": {
+        "base": 287309824,
+        "main": 42237043252,
+        "memory": 6941601719,
+        "opcode": 6367879926,
+        "precompile": 3366351181
+      },
+      "peak_heap_bytes": 32786640,
+      "peak_stack_bytes": 66560
+    },
+    "witness-generator-spec-cli::block_12140972_40bc302a9da95a6d35286cbc5c0b152598e10dc8e827f04e7d61bad79dfc65b7": {
+      "cost": {
+        "base": 287309824,
+        "main": 43880208988,
+        "memory": 7142674288,
+        "opcode": 6563848899,
+        "precompile": 3244497623
+      },
+      "peak_heap_bytes": 29106784,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140973_a4557ca73b03f7c06214bf8d0b2d8f220e2b3b38564c2df1ba2ea790bc6cee88": {
+      "cost": {
+        "base": 287309824,
+        "main": 42590624620,
+        "memory": 6740050699,
+        "opcode": 6319778543,
+        "precompile": 2663535653
+      },
+      "peak_heap_bytes": 25749752,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140974_2563bfeb8affec46889322fb7492a55bad0c1d8897a8d3057ff311fbcd8e5151": {
+      "cost": {
+        "base": 287309824,
+        "main": 42755511496,
+        "memory": 6827357544,
+        "opcode": 6343783819,
+        "precompile": 2732485509
+      },
+      "peak_heap_bytes": 24710432,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140975_dc0c5b862206e20534c25428ea030ebe49676c8dca1c382ddc0b40a9e76d3ddb": {
+      "cost": {
+        "base": 287309824,
+        "main": 44949714280,
+        "memory": 7284191288,
+        "opcode": 6881529672,
+        "precompile": 3535360600
+      },
+      "peak_heap_bytes": 36853312,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140976_6a59b71d666d8d68d620961fb9d3b8347b0c4e1352fafb110dd1f39e5676a5ec": {
+      "cost": {
+        "base": 287309824,
+        "main": 45276325624,
+        "memory": 7481196307,
+        "opcode": 6888097832,
+        "precompile": 3744191010
+      },
+      "peak_heap_bytes": 35222112,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140977_70d7752e8a71f90f142362e4f14ee48da1eded1e7d443d3389a9ad0ee1a8435e": {
+      "cost": {
+        "base": 287309824,
+        "main": 45371897516,
+        "memory": 7339404067,
+        "opcode": 6897286502,
+        "precompile": 3621677415
+      },
+      "peak_heap_bytes": 38766744,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140978_e48d6928364e58dd0516c29048e3b5dad73bc24abaa87623611093d6edd7cfad": {
+      "cost": {
+        "base": 287309824,
+        "main": 42479309096,
+        "memory": 6686025833,
+        "opcode": 6278211940,
+        "precompile": 2466309144
+      },
+      "peak_heap_bytes": 22580904,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140979_cb9da261e064befab1e4053a633493d514b8788b227fc1d3826749ae31d654d0": {
+      "cost": {
+        "base": 287309824,
+        "main": 44922270092,
+        "memory": 7199849045,
+        "opcode": 6674590081,
+        "precompile": 3098987188
+      },
+      "peak_heap_bytes": 28374888,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140980_c0fa579cc813ad99292b704e077d35e7e1878f90a98ff1959075fc968043b85a": {
+      "cost": {
+        "base": 287309824,
+        "main": 42858926916,
+        "memory": 6861858257,
+        "opcode": 6356646455,
+        "precompile": 2835479862
+      },
+      "peak_heap_bytes": 25512000,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140981_8663ee780d6c8c7c2285721c6de58f800902e0853ee453e009bb57d90c1890a4": {
+      "cost": {
+        "base": 287309824,
+        "main": 43398744848,
+        "memory": 7042822085,
+        "opcode": 6451133914,
+        "precompile": 3083888356
+      },
+      "peak_heap_bytes": 26576224,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140982_835275d5f74b015b44dd29b4308efb1da406f857112202567db986caa1dd2036": {
+      "cost": {
+        "base": 287309824,
+        "main": 47398417604,
+        "memory": 7698456907,
+        "opcode": 7182090330,
+        "precompile": 3633172500
+      },
+      "peak_heap_bytes": 36507224,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140983_49bab344e14b9a67f26af4fd3d316f9973e0ef34bc29355d60d6a96b264a3c4e": {
+      "cost": {
+        "base": 287309824,
+        "main": 43955882448,
+        "memory": 7171650521,
+        "opcode": 6588561736,
+        "precompile": 3356838470
+      },
+      "peak_heap_bytes": 30768032,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140984_cb160acfdcebc84c8d5d7d083263de3bf686a42168a5e8030ad320ffb80e7f08": {
+      "cost": {
+        "base": 287309824,
+        "main": 41734899292,
+        "memory": 6718805706,
+        "opcode": 6197611165,
+        "precompile": 2794585809
+      },
+      "peak_heap_bytes": 24553656,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140985_2a2ee3de621005716c9650cb5878a74b3c73a92dc2aec8840d6547702c27d471": {
+      "cost": {
+        "base": 287309824,
+        "main": 44521501484,
+        "memory": 7061110365,
+        "opcode": 6585631512,
+        "precompile": 2730305738
+      },
+      "peak_heap_bytes": 24231600,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140986_1a6cc9927c585c6816bf165e969df62dfd1d30079b469ae77cfb16981ed7ad1f": {
+      "cost": {
+        "base": 287309824,
+        "main": 41818016916,
+        "memory": 6745292414,
+        "opcode": 6316316290,
+        "precompile": 3306322219
+      },
+      "peak_heap_bytes": 33561864,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140987_abd0f9a7b7a7d757491af798184900434fcc4e3f620f77e90c0768a98b51a35e": {
+      "cost": {
+        "base": 287309824,
+        "main": 44264813384,
+        "memory": 7098789100,
+        "opcode": 6638973273,
+        "precompile": 3166479099
+      },
+      "peak_heap_bytes": 30405712,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140988_a2019fede0ba7dde84355043af90a84078fe167fab882987862f43211d918215": {
+      "cost": {
+        "base": 287309824,
+        "main": 42839931048,
+        "memory": 6853347754,
+        "opcode": 6351725796,
+        "precompile": 2741570620
+      },
+      "peak_heap_bytes": 24556104,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140989_53e09fcf0a380177d4405911b09a3f31b9751fc5665e2656e96dc435988dabbd": {
+      "cost": {
+        "base": 287309824,
+        "main": 43937528840,
+        "memory": 7165112513,
+        "opcode": 6594957074,
+        "precompile": 3390185501
+      },
+      "peak_heap_bytes": 31199832,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140990_be2f8273bba92d007c8bf717b63ff61901d7336b4e5769c3f853cc8c798bde52": {
+      "cost": {
+        "base": 287309824,
+        "main": 41885301216,
+        "memory": 6673227622,
+        "opcode": 6150223504,
+        "precompile": 2391524121
+      },
+      "peak_heap_bytes": 18308864,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140991_9c8c7125ae905c5b1a655b1803aa4e69e74bfc1aeac5fd5456f82fc292d9df9e": {
+      "cost": {
+        "base": 287309824,
+        "main": 44917486972,
+        "memory": 7313033900,
+        "opcode": 6770290857,
+        "precompile": 3091859478
+      },
+      "peak_heap_bytes": 26772200,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140992_10b88a729c082c84ceb7071859744c556946900ae4a2e891c1ca6bd8dc1ca1ee": {
+      "cost": {
+        "base": 287309824,
+        "main": 43830170780,
+        "memory": 6998018583,
+        "opcode": 6575548031,
+        "precompile": 2963547397
+      },
+      "peak_heap_bytes": 29822032,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140993_ad4b968877af6627d222723b1672e96dd4b5425925cb842553cc80fe6911bd34": {
+      "cost": {
+        "base": 287309824,
+        "main": 45138623516,
+        "memory": 7192436428,
+        "opcode": 6701398042,
+        "precompile": 2852143456
+      },
+      "peak_heap_bytes": 26324112,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140994_91bb8e2e3290962ba197ab2acad86fae6be162de155b1fd348231d3118ec35a0": {
+      "cost": {
+        "base": 287309824,
+        "main": 41714403956,
+        "memory": 6695349447,
+        "opcode": 6243937246,
+        "precompile": 2875742862
+      },
+      "peak_heap_bytes": 27055448,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140995_295894a806ea3b15de7eb53393af7a5bfebdc82f026bc8c97494cd497d413c0e": {
+      "cost": {
+        "base": 287309824,
+        "main": 46268825948,
+        "memory": 7485381792,
+        "opcode": 6925586517,
+        "precompile": 3330134617
+      },
+      "peak_heap_bytes": 30870952,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140996_d76dccb4438b568c05288b77d7452b9b5e47f43be6c5bc148fc1c2ab5bef0517": {
+      "cost": {
+        "base": 287309824,
+        "main": 41039956496,
+        "memory": 6672975846,
+        "opcode": 6095716718,
+        "precompile": 2894537701
+      },
+      "peak_heap_bytes": 25148176,
+      "peak_stack_bytes": 66560
+    },
+    "witness-generator-spec-cli::block_12140997_ddc500c99a9b7c832c77d415055c15e2622d6df4da6c007eb43aabe51254dd05": {
+      "cost": {
+        "base": 287309824,
+        "main": 42013416752,
+        "memory": 6624267920,
+        "opcode": 6186497977,
+        "precompile": 2400421490
+      },
+      "peak_heap_bytes": 20948032,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140998_b1fc5e6605b7f25f0d29d508430cbef237c88f07dcb41267484dfe0fd55146d8": {
+      "cost": {
+        "base": 287309824,
+        "main": 44519251772,
+        "memory": 7024009563,
+        "opcode": 6695993827,
+        "precompile": 2742759793
+      },
+      "peak_heap_bytes": 26366888,
+      "peak_stack_bytes": 68912
+    },
+    "witness-generator-spec-cli::block_12140999_3b43b464647271017a735753f53bf6fbd664da7759eb67a896a103db2ff43feb": {
+      "cost": {
+        "base": 287309824,
+        "main": 48877914072,
+        "memory": 7754257247,
+        "opcode": 7355637651,
+        "precompile": 3224708450
+      },
+      "peak_heap_bytes": 31677808,
+      "peak_stack_bytes": 68912
     }
   }
 }
