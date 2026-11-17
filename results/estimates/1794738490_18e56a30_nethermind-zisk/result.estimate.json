@@ -23,10 +23,10 @@
     "--ere-tag",
     "0.19.4",
     "--elf",
-    "https://github.com/eth-act/ere-guests/releases/download/v0.19.1/stateless-validator-nethermind-zisk-v1.3.2-alpha.elf"
+    "nethermind-symbols.elf"
   ],
-  "elf_url": "https://github.com/eth-act/ere-guests/releases/download/v0.19.1/stateless-validator-nethermind-zisk-v1.3.2-alpha.elf",
-  "elf_sha256": "fd31c5afdb66c64da48afcab76a52915b2b2e5745bc93b17a462fb73b2eac41a",
+  "elf_url": "nethermind-symbols.elf",
+  "elf_sha256": "eae02d2f118d9664d965f970bb0eec807d50505e6b7552fce40ed60253ad6ebe",
   "tests": {
     "benchmark/compute/eip7928_block_level_access_lists/test_block_access_list.py::test_deploy_then_interact[fork_Amsterdam-blockchain_test-greedy_fill-independent_pairs-benchmark-gas-value_100M]": {
       "cost": {
