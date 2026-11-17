@@ -211,6 +211,9 @@ run() {
         echo "error: no test of ${id} was profiled" >&2
         exit 1
     fi
+    # GitHub delays and drops scheduled runs, so a run with pending tests starts
+    # the next scan itself. Its job for this run waits for this job to end.
+    gh workflow run profile.yaml --repo "${GITHUB_REPOSITORY}" --ref main
 }
 
 case "${1:-}" in

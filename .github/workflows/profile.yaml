@@ -1,8 +1,9 @@
 name: profile
 
 # Profiles every run that lacks a complete profile, one draft pull request per
-# run. A job stops after a budget below the 6 hour job limit, and the next
-# scheduled scan continues the run from its pull request branch.
+# run. A job stops after a budget below the 6 hour job limit and dispatches the
+# next scan, which continues the run from its pull request branch. The
+# schedule restarts a run whose job ended without that dispatch.
 on:
   push:
     branches: [main]
@@ -55,6 +56,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
     permissions:
+      actions: write
       contents: write
       pull-requests: write
     strategy:
