@@ -65,7 +65,7 @@ jobs:
   profile:
     needs: scan
     if: needs.scan.outputs.runs != '[]'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 360
     permissions:
       actions: write
