@@ -1,15 +1,15 @@
 name: profile
 
-# Profiles every run that lacks a complete profile, one draft pull request per
-# run. A job stops after a budget below the 6 hour job limit and dispatches the
-# next scan, which continues the run from its pull request branch. The
-# schedule restarts a run whose job ended without that dispatch.
 on:
   push:
     branches: [main]
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
+    inputs:
+      run_id:
+        type: string
+        default: ''
 
 permissions:
   contents: read
@@ -22,14 +22,13 @@ jobs:
       pull-requests: read
     outputs:
       runs: ${{ steps.scan.outputs.runs }}
+      blocked: ${{ steps.scan.outputs.blocked }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/checkout@v7
         with:
           repository: han0110/provoor
           path: provoor
-      # The checkout skips the provoor-runs submodule, since go.mod needs only
-      # benchmarkoor.
       - run: git -C provoor submodule update --init --depth 1 benchmarkoor
       - uses: actions/setup-go@v7
         with:
@@ -45,10 +44,23 @@ jobs:
         env:
           PROVOOR: ${{ github.workspace }}/provoor-bin
           GH_TOKEN: ${{ github.token }}
-        # A separate assignment keeps the exit status of the scan.
+          RUN_ID: ${{ inputs.run_id }}
+        # The assignment keeps the exit status of the scan.
         run: |
-          runs="$(scripts/profile.sh scan)"
-          echo "runs=${runs}" >> "${GITHUB_OUTPUT}"
+          scan="$(scripts/profile.sh scan "${RUN_ID}")"
+          echo "runs=$(jq -c .runs <<< "${scan}")" >> "${GITHUB_OUTPUT}"
+          echo "blocked=$(jq -c .blocked <<< "${scan}")" >> "${GITHUB_OUTPUT}"
+
+  blocked:
+    needs: scan
+    if: needs.scan.outputs.blocked != '[]'
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          BLOCKED: ${{ needs.scan.outputs.blocked }}
+        run: |
+          echo "::error::blocked runs ${BLOCKED}, see the scan summary"
+          exit 1
 
   profile:
     needs: scan
@@ -67,11 +79,8 @@ jobs:
       group: profile-${{ matrix.run }}
       cancel-in-progress: false
     steps:
-      # Profiling stops 5.5 hours after the job starts, which leaves time to
-      # publish the last slice before the 6 hour job limit.
+      # 5.5 hours, so the push ends before the 6 hour job limit.
       - run: echo "DEADLINE=$(( $(date +%s) + 19800 ))" >> "${GITHUB_ENV}"
-      # A run needs about 18.5 GB for the fixtures, the image, and the checkout.
-      - run: df -h /
       - uses: actions/checkout@v7
       - uses: actions/download-artifact@v8
         with:
