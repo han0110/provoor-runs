@@ -21819,6 +21819,17 @@
       "peak_heap_bytes": 527672,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_0-mem_size_1024-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 369517070012,
+        "memory": 42428530957,
+        "opcode": 43186294300,
+        "precompile": 3727096044
+      },
+      "peak_heap_bytes": 548976,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_0-mem_size_1024-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -21896,6 +21907,17 @@
       "peak_heap_bytes": 2099064,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_0-mem_size_1048576-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 320810405712,
+        "memory": 36867512681,
+        "opcode": 37487128636,
+        "precompile": 3248169693
+      },
+      "peak_heap_bytes": 2120360,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_0-mem_size_1048576-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -21927,6 +21949,17 @@
         "precompile": 2801789135
       },
       "peak_heap_bytes": 526592,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_0-mem_size_256-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 369518394312,
+        "memory": 42428509808,
+        "opcode": 43186231114,
+        "precompile": 3727123652
+      },
+      "peak_heap_bytes": 547880,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_0-mem_size_256-benchmark-gas-value_60M]": {
@@ -22050,6 +22083,17 @@
       "peak_heap_bytes": 527160,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_1024-mem_size_1024-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 84391272024,
+        "memory": 16682446462,
+        "opcode": 10954353416,
+        "precompile": 9969756008
+      },
+      "peak_heap_bytes": 548432,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_1024-mem_size_1024-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -22081,6 +22125,17 @@
         "precompile": 7483336106
       },
       "peak_heap_bytes": 542576,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_1024-mem_size_10240-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 84385821824,
+        "memory": 16681621777,
+        "opcode": 11048137032,
+        "precompile": 9969154456
+      },
+      "peak_heap_bytes": 563856,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_1024-mem_size_10240-benchmark-gas-value_60M]": {
@@ -22204,6 +22259,17 @@
       "peak_heap_bytes": 527144,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_1024-mem_size_32-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 84391190968,
+        "memory": 16682398385,
+        "opcode": 10954320239,
+        "precompile": 9969739711
+      },
+      "peak_heap_bytes": 548456,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_1024-mem_size_32-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -22235,6 +22301,17 @@
         "precompile": 6125315471
       },
       "peak_heap_bytes": 526392,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_256-mem_size_0-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 205790486648,
+        "memory": 27635731166,
+        "opcode": 23068146343,
+        "precompile": 8158480602
+      },
+      "peak_heap_bytes": 547688,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_256-mem_size_0-benchmark-gas-value_60M]": {
@@ -22314,6 +22391,17 @@
       "peak_heap_bytes": 541824,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_256-mem_size_10240-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 205777600376,
+        "memory": 27634421940,
+        "opcode": 24247180834,
+        "precompile": 8157756177
+      },
+      "peak_heap_bytes": 563088,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_256-mem_size_10240-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -22345,6 +22433,17 @@
         "precompile": 5327891886
       },
       "peak_heap_bytes": 2099312,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_256-mem_size_1048576-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 178669289128,
+        "memory": 24025080712,
+        "opcode": 21046966385,
+        "precompile": 7095062901
+      },
+      "peak_heap_bytes": 2120600,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_256-mem_size_1048576-benchmark-gas-value_60M]": {
@@ -22380,6 +22479,17 @@
       "peak_heap_bytes": 526400,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_256-mem_size_256-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 205791256816,
+        "memory": 27635891913,
+        "opcode": 23068994911,
+        "precompile": 8158262658
+      },
+      "peak_heap_bytes": 547688,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_256-mem_size_256-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -22411,6 +22521,17 @@
         "precompile": 6125089978
       },
       "peak_heap_bytes": 526344,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_256-mem_size_32-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 205791226420,
+        "memory": 27635845987,
+        "opcode": 23068994520,
+        "precompile": 8158177626
+      },
+      "peak_heap_bytes": 547624,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_256-mem_size_32-benchmark-gas-value_60M]": {
@@ -22446,6 +22567,17 @@
       "peak_heap_bytes": 528856,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_32-mem_size_0-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 353813250652,
+        "memory": 40517732698,
+        "opcode": 39755806997,
+        "precompile": 5936065450
+      },
+      "peak_heap_bytes": 550136,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_32-mem_size_0-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -22479,6 +22611,17 @@
       "peak_heap_bytes": 527696,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_32-mem_size_1024-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 353792273400,
+        "memory": 40516055123,
+        "opcode": 40163898751,
+        "precompile": 5935751167
+      },
+      "peak_heap_bytes": 548984,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_32-mem_size_1024-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -22510,6 +22653,17 @@
         "precompile": 4458068254
       },
       "peak_heap_bytes": 541568,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_32-mem_size_10240-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 353769642796,
+        "memory": 40513784217,
+        "opcode": 41798297621,
+        "precompile": 5935496165
+      },
+      "peak_heap_bytes": 562856,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_False-copy_size_32-mem_size_10240-benchmark-gas-value_60M]": {
@@ -22677,6 +22831,17 @@
       "peak_heap_bytes": 525968,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_0-mem_size_0-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 205016639236,
+        "memory": 25642489070,
+        "opcode": 31448239180,
+        "precompile": 4833434330
+      },
+      "peak_heap_bytes": 547288,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_0-mem_size_0-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -22754,6 +22919,17 @@
       "peak_heap_bytes": 541528,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_0-mem_size_10240-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 205005163284,
+        "memory": 25642079107,
+        "opcode": 31448040143,
+        "precompile": 4833210766
+      },
+      "peak_heap_bytes": 562816,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_0-mem_size_10240-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -22785,6 +22961,17 @@
         "precompile": 3163191376
       },
       "peak_heap_bytes": 2101744,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_0-mem_size_1048576-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 177999637776,
+        "memory": 22295442225,
+        "opcode": 27306409054,
+        "precompile": 4208759969
+      },
+      "peak_heap_bytes": 2123040,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_0-mem_size_1048576-benchmark-gas-value_60M]": {
@@ -22994,6 +23181,17 @@
         "precompile": 1986071975
       },
       "peak_heap_bytes": 543744,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_1024-mem_size_10240-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 28510210672,
+        "memory": 11305953768,
+        "opcode": 4756427334,
+        "precompile": 2639460084
+      },
+      "peak_heap_bytes": 565032,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_1024-mem_size_10240-benchmark-gas-value_60M]": {
@@ -23249,6 +23447,17 @@
       "peak_heap_bytes": 541728,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_256-mem_size_10240-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 85379655492,
+        "memory": 15769019131,
+        "opcode": 12300612720,
+        "precompile": 3379436683
+      },
+      "peak_heap_bytes": 563008,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_256-mem_size_10240-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -23280,6 +23489,17 @@
         "precompile": 2216429242
       },
       "peak_heap_bytes": 2099224,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_256-mem_size_1048576-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 74137786284,
+        "memory": 13723317720,
+        "opcode": 10677945843,
+        "precompile": 2946459128
+      },
+      "peak_heap_bytes": 2120512,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_256-mem_size_1048576-benchmark-gas-value_60M]": {
@@ -23359,6 +23579,17 @@
       "peak_heap_bytes": 529048,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_256-mem_size_32-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 85385406524,
+        "memory": 15769708806,
+        "opcode": 10665335304,
+        "precompile": 3379669104
+      },
+      "peak_heap_bytes": 550296,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_256-mem_size_32-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -23390,6 +23621,17 @@
         "precompile": 4041181179
       },
       "peak_heap_bytes": 526104,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_32-mem_size_0-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202979974840,
+        "memory": 24060808734,
+        "opcode": 25562178406,
+        "precompile": 5379668335
+      },
+      "peak_heap_bytes": 547408,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_32-mem_size_0-benchmark-gas-value_60M]": {
@@ -23425,6 +23667,17 @@
       "peak_heap_bytes": 527648,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_32-mem_size_1024-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202981396244,
+        "memory": 24061827204,
+        "opcode": 26355880851,
+        "precompile": 5379502622
+      },
+      "peak_heap_bytes": 548944,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_32-mem_size_1024-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -23456,6 +23709,17 @@
         "precompile": 4040997677
       },
       "peak_heap_bytes": 544256,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_32-mem_size_10240-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202968732740,
+        "memory": 24060651535,
+        "opcode": 29524468477,
+        "precompile": 5379368661
+      },
+      "peak_heap_bytes": 565520,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_32-mem_size_10240-benchmark-gas-value_60M]": {
@@ -23579,6 +23843,17 @@
       "peak_heap_bytes": 526104,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_32-mem_size_32-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202982079032,
+        "memory": 24061699784,
+        "opcode": 25563415076,
+        "precompile": 5379576962
+      },
+      "peak_heap_bytes": 547376,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_mcopy[fork_Amsterdam-blockchain_test-fixed_src_dst_True-copy_size_32-mem_size_32-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -23610,6 +23885,17 @@
         "precompile": 2151888104
       },
       "peak_heap_bytes": 528832,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_0-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 193702227832,
+        "memory": 24170298671,
+        "opcode": 25490240956,
+        "precompile": 2860550018
+      },
+      "peak_heap_bytes": 550096,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_0-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -23645,6 +23931,17 @@
       "peak_heap_bytes": 526120,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_0-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 223518134044,
+        "memory": 33719399852,
+        "opcode": 26659439802,
+        "precompile": 5055589658
+      },
+      "peak_heap_bytes": 547440,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_0-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -23676,6 +23973,17 @@
         "precompile": 3797977366
       },
       "peak_heap_bytes": 528872,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_0-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305941720,
+        "memory": 24062111922,
+        "opcode": 28546544986,
+        "precompile": 5055399441
+      },
+      "peak_heap_bytes": 550144,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_0-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -23711,6 +24019,17 @@
       "peak_heap_bytes": 528832,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_1-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193955088,
+        "memory": 41653335864,
+        "opcode": 27613183346,
+        "precompile": 2860524435
+      },
+      "peak_heap_bytes": 550096,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_1-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -23742,6 +24061,17 @@
         "precompile": 3798121295
       },
       "peak_heap_bytes": 526136,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_1-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066409376,
+        "memory": 61692455192,
+        "opcode": 28546518625,
+        "precompile": 5055585413
+      },
+      "peak_heap_bytes": 547440,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_1-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -23777,6 +24107,17 @@
       "peak_heap_bytes": 528880,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_1-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305900784,
+        "memory": 24062090031,
+        "opcode": 28546528345,
+        "precompile": 5055637995
+      },
+      "peak_heap_bytes": 550120,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_1-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -23808,6 +24149,17 @@
         "precompile": 2151814177
       },
       "peak_heap_bytes": 526104,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_31-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193701720,
+        "memory": 41653263543,
+        "opcode": 27613150418,
+        "precompile": 2860472504
+      },
+      "peak_heap_bytes": 547408,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_31-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -23843,6 +24195,17 @@
       "peak_heap_bytes": 527384,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_31-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066562852,
+        "memory": 61692493178,
+        "opcode": 28546520385,
+        "precompile": 5055638296
+      },
+      "peak_heap_bytes": 548656,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_31-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -23874,6 +24237,17 @@
         "precompile": 3798204348
       },
       "peak_heap_bytes": 528888,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_31-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 184267291208,
+        "memory": 24062094420,
+        "opcode": 28546539489,
+        "precompile": 5055654983
+      },
+      "peak_heap_bytes": 550152,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_False-offset_31-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -23909,6 +24283,17 @@
       "peak_heap_bytes": 526144,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_0-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 193702005880,
+        "memory": 24170211511,
+        "opcode": 26888959251,
+        "precompile": 2860498750
+      },
+      "peak_heap_bytes": 547416,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_0-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -23940,6 +24325,17 @@
         "precompile": 3798167057
       },
       "peak_heap_bytes": 526160,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_0-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 223518165868,
+        "memory": 33719387182,
+        "opcode": 26659527290,
+        "precompile": 5055628492
+      },
+      "peak_heap_bytes": 547440,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_0-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -23975,6 +24371,17 @@
       "peak_heap_bytes": 526112,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_0-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305699980,
+        "memory": 24062009312,
+        "opcode": 28546594810,
+        "precompile": 5055578917
+      },
+      "peak_heap_bytes": 547368,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_0-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24006,6 +24413,17 @@
         "precompile": 2151832864
       },
       "peak_heap_bytes": 526120,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_1-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193747960,
+        "memory": 41653263982,
+        "opcode": 29011897089,
+        "precompile": 2860496197
+      },
+      "peak_heap_bytes": 547408,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_1-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -24041,6 +24459,17 @@
       "peak_heap_bytes": 526136,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_1-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066415496,
+        "memory": 61692436353,
+        "opcode": 28546595250,
+        "precompile": 5055590117
+      },
+      "peak_heap_bytes": 547448,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_1-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24072,6 +24501,17 @@
         "precompile": 3798104776
       },
       "peak_heap_bytes": 526096,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_1-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305655712,
+        "memory": 24062005412,
+        "opcode": 28546600326,
+        "precompile": 5055541931
+      },
+      "peak_heap_bytes": 547360,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_1-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -24107,6 +24547,17 @@
       "peak_heap_bytes": 526136,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_31-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193719332,
+        "memory": 41653249125,
+        "opcode": 29011891602,
+        "precompile": 2860451481
+      },
+      "peak_heap_bytes": 547408,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_31-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24138,6 +24589,17 @@
         "precompile": 3798213679
       },
       "peak_heap_bytes": 527464,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_31-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066587876,
+        "memory": 61692473927,
+        "opcode": 28546606838,
+        "precompile": 5055648116
+      },
+      "peak_heap_bytes": 548760,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_31-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -24173,6 +24635,17 @@
       "peak_heap_bytes": 528864,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_31-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 184267322896,
+        "memory": 24062125291,
+        "opcode": 28546603658,
+        "precompile": 5055687027
+      },
+      "peak_heap_bytes": 550160,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_0-offset_initialized_True-offset_31-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24204,6 +24677,17 @@
         "precompile": 2151829216
       },
       "peak_heap_bytes": 527072,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_0-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 193700873816,
+        "memory": 24170129472,
+        "opcode": 25490167471,
+        "precompile": 2860512555
+      },
+      "peak_heap_bytes": 548376,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_0-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -24239,6 +24723,17 @@
       "peak_heap_bytes": 527056,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_0-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 223516829260,
+        "memory": 33719190120,
+        "opcode": 26659394251,
+        "precompile": 5055524105
+      },
+      "peak_heap_bytes": 548336,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_0-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24270,6 +24765,17 @@
         "precompile": 3798122093
       },
       "peak_heap_bytes": 527104,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_0-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190304537248,
+        "memory": 24061906994,
+        "opcode": 28546434716,
+        "precompile": 5055542230
+      },
+      "peak_heap_bytes": 548408,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_0-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -24305,6 +24811,17 @@
       "peak_heap_bytes": 529808,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_1-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202192815884,
+        "memory": 41653118219,
+        "opcode": 27613122023,
+        "precompile": 2860539902
+      },
+      "peak_heap_bytes": 551056,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_1-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24336,6 +24853,17 @@
         "precompile": 3798155757
       },
       "peak_heap_bytes": 527112,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_1-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231065076712,
+        "memory": 61692126913,
+        "opcode": 28546441187,
+        "precompile": 5055574072
+      },
+      "peak_heap_bytes": 548392,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_1-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -24371,6 +24899,17 @@
       "peak_heap_bytes": 528328,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_1-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190304715408,
+        "memory": 24061950146,
+        "opcode": 28546458628,
+        "precompile": 5055614928
+      },
+      "peak_heap_bytes": 549632,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_1-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24402,6 +24941,17 @@
         "precompile": 2151583676
       },
       "peak_heap_bytes": 529808,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_31-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202192776240,
+        "memory": 41653127051,
+        "opcode": 27613123739,
+        "precompile": 2860238004
+      },
+      "peak_heap_bytes": 551096,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_31-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -24437,6 +24987,17 @@
       "peak_heap_bytes": 527112,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_31-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231065069028,
+        "memory": 61692117828,
+        "opcode": 28546445758,
+        "precompile": 5055556624
+      },
+      "peak_heap_bytes": 548384,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_31-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24468,6 +25029,17 @@
         "precompile": 3798133308
       },
       "peak_heap_bytes": 527096,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_31-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 184265963712,
+        "memory": 24061918174,
+        "opcode": 28546435994,
+        "precompile": 5055574010
+      },
+      "peak_heap_bytes": 548376,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_False-offset_31-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -24503,6 +25075,17 @@
       "peak_heap_bytes": 529800,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_0-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 193701161932,
+        "memory": 24170199215,
+        "opcode": 26888910365,
+        "precompile": 2860544138
+      },
+      "peak_heap_bytes": 551072,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_0-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24534,6 +25117,17 @@
         "precompile": 3798129467
       },
       "peak_heap_bytes": 527104,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_0-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 223516837284,
+        "memory": 33719204103,
+        "opcode": 26659463183,
+        "precompile": 5055572203
+      },
+      "peak_heap_bytes": 548384,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_0-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -24569,6 +25163,17 @@
       "peak_heap_bytes": 529848,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_0-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190304854060,
+        "memory": 24061991709,
+        "opcode": 28546536320,
+        "precompile": 5055640716
+      },
+      "peak_heap_bytes": 551072,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_0-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24600,6 +25205,17 @@
         "precompile": 2151759346
       },
       "peak_heap_bytes": 527032,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_1-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202192604268,
+        "memory": 41653034313,
+        "opcode": 29011832446,
+        "precompile": 2860428093
+      },
+      "peak_heap_bytes": 548296,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_1-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -24635,6 +25251,17 @@
       "peak_heap_bytes": 527112,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_1-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231065095548,
+        "memory": 61692114891,
+        "opcode": 28546522722,
+        "precompile": 5055604066
+      },
+      "peak_heap_bytes": 548400,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_1-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24666,6 +25293,17 @@
         "precompile": 3798113527
       },
       "peak_heap_bytes": 527112,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_1-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190304584576,
+        "memory": 24061900211,
+        "opcode": 28546528711,
+        "precompile": 5055567448
+      },
+      "peak_heap_bytes": 548384,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_1-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -24701,6 +25339,17 @@
       "peak_heap_bytes": 529824,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_31-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202192773384,
+        "memory": 41653120514,
+        "opcode": 29011828417,
+        "precompile": 2860490768
+      },
+      "peak_heap_bytes": 551072,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_31-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24732,6 +25381,17 @@
         "precompile": 3798099026
       },
       "peak_heap_bytes": 527064,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_31-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231065089292,
+        "memory": 61692098042,
+        "opcode": 28546526842,
+        "precompile": 5055535402
+      },
+      "peak_heap_bytes": 548336,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_31-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -24767,6 +25427,17 @@
       "peak_heap_bytes": 527112,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_31-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 184265992204,
+        "memory": 24061910045,
+        "opcode": 28546522381,
+        "precompile": 5055571222
+      },
+      "peak_heap_bytes": 548408,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_1024-offset_initialized_True-offset_31-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24798,6 +25469,17 @@
         "precompile": 2151808844
       },
       "peak_heap_bytes": 539016,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_0-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 193688802184,
+        "memory": 24168907356,
+        "opcode": 26987034424,
+        "precompile": 2860425994
+      },
+      "peak_heap_bytes": 560304,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_0-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -24833,6 +25515,17 @@
       "peak_heap_bytes": 536320,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_0-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 223502574420,
+        "memory": 33717312414,
+        "opcode": 27989647991,
+        "precompile": 5055301716
+      },
+      "peak_heap_bytes": 557608,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_0-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24864,6 +25557,17 @@
         "precompile": 3797918985
       },
       "peak_heap_bytes": 536312,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_0-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190292423864,
+        "memory": 24060628356,
+        "opcode": 31208551762,
+        "precompile": 5055301091
+      },
+      "peak_heap_bytes": 557616,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_0-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -24899,6 +25603,17 @@
       "peak_heap_bytes": 536288,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_1-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202179682092,
+        "memory": 41650630954,
+        "opcode": 29109790427,
+        "precompile": 2860334809
+      },
+      "peak_heap_bytes": 557568,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_1-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24930,6 +25645,17 @@
         "precompile": 3797948972
       },
       "peak_heap_bytes": 536304,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_1-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231050343016,
+        "memory": 61688430839,
+        "opcode": 29876588321,
+        "precompile": 5055320237
+      },
+      "peak_heap_bytes": 557592,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_1-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -24965,6 +25691,17 @@
       "peak_heap_bytes": 539040,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_1-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190292598216,
+        "memory": 24060681364,
+        "opcode": 31208573656,
+        "precompile": 5055337527
+      },
+      "peak_heap_bytes": 560296,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_1-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -24996,6 +25733,17 @@
         "precompile": 2151747021
       },
       "peak_heap_bytes": 539024,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_31-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202179865760,
+        "memory": 41650702176,
+        "opcode": 29109825212,
+        "precompile": 2860377998
+      },
+      "peak_heap_bytes": 560280,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_31-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -25031,6 +25779,17 @@
       "peak_heap_bytes": 536320,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_31-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231050338324,
+        "memory": 61688443617,
+        "opcode": 29876581988,
+        "precompile": 5055317766
+      },
+      "peak_heap_bytes": 557616,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_31-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25062,6 +25821,17 @@
         "precompile": 3797933564
       },
       "peak_heap_bytes": 536320,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_31-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 184254216440,
+        "memory": 24060626380,
+        "opcode": 31208549214,
+        "precompile": 5055315871
+      },
+      "peak_heap_bytes": 557616,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_False-offset_31-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -25097,6 +25867,17 @@
       "peak_heap_bytes": 536280,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_0-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 193688572072,
+        "memory": 24168810050,
+        "opcode": 28385646394,
+        "precompile": 2860368430
+      },
+      "peak_heap_bytes": 557568,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_0-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25128,6 +25909,17 @@
         "precompile": 3798022051
       },
       "peak_heap_bytes": 539072,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_0-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 223502881032,
+        "memory": 33717406843,
+        "opcode": 27989738470,
+        "precompile": 5055398234
+      },
+      "peak_heap_bytes": 560328,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_0-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -25163,6 +25955,17 @@
       "peak_heap_bytes": 536328,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_0-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190292448140,
+        "memory": 24060608285,
+        "opcode": 31208624197,
+        "precompile": 5055304044
+      },
+      "peak_heap_bytes": 557616,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_0-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25194,6 +25997,17 @@
         "precompile": 2151673375
       },
       "peak_heap_bytes": 536240,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_1-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202179738600,
+        "memory": 41650632048,
+        "opcode": 30508438321,
+        "precompile": 2860323261
+      },
+      "peak_heap_bytes": 557528,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_1-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -25229,6 +26043,17 @@
       "peak_heap_bytes": 539064,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_1-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231050505400,
+        "memory": 61688485521,
+        "opcode": 29876662831,
+        "precompile": 5055319891
+      },
+      "peak_heap_bytes": 560320,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_1-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25260,6 +26085,17 @@
         "precompile": 3797967377
       },
       "peak_heap_bytes": 536336,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_1-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190292463576,
+        "memory": 24060630626,
+        "opcode": 31208638322,
+        "precompile": 5055321538
+      },
+      "peak_heap_bytes": 557608,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_1-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -25295,6 +26131,17 @@
       "peak_heap_bytes": 536304,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_31-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202179726496,
+        "memory": 41650634552,
+        "opcode": 30508434858,
+        "precompile": 2860354265
+      },
+      "peak_heap_bytes": 557584,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_31-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25326,6 +26173,17 @@
         "precompile": 3797973224
       },
       "peak_heap_bytes": 539072,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_31-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231050534096,
+        "memory": 61688497354,
+        "opcode": 29876673864,
+        "precompile": 5055354993
+      },
+      "peak_heap_bytes": 560320,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_31-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -25361,6 +26219,17 @@
       "peak_heap_bytes": 536344,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_31-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 184254265808,
+        "memory": 24060618869,
+        "opcode": 31208642926,
+        "precompile": 5055291224
+      },
+      "peak_heap_bytes": 557624,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_10240-offset_initialized_True-offset_31-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25392,6 +26261,17 @@
         "precompile": 2151761364
       },
       "peak_heap_bytes": 526264,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_0-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 193701719600,
+        "memory": 24170160584,
+        "opcode": 25490274321,
+        "precompile": 2860417314
+      },
+      "peak_heap_bytes": 547528,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_0-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -25427,6 +26307,17 @@
       "peak_heap_bytes": 526344,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_0-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 223517848240,
+        "memory": 33719324702,
+        "opcode": 26659485589,
+        "precompile": 5055563233
+      },
+      "peak_heap_bytes": 547624,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_0-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25458,6 +26349,17 @@
         "precompile": 3798247082
       },
       "peak_heap_bytes": 529080,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_0-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305729152,
+        "memory": 24062087776,
+        "opcode": 28546590929,
+        "precompile": 5055690210
+      },
+      "peak_heap_bytes": 550344,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_0-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -25493,6 +26395,17 @@
       "peak_heap_bytes": 526328,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_1-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193479428,
+        "memory": 41653184780,
+        "opcode": 27613215426,
+        "precompile": 2860477537
+      },
+      "peak_heap_bytes": 547608,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_1-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25524,6 +26437,17 @@
         "precompile": 3798222183
       },
       "peak_heap_bytes": 529080,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_1-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066424064,
+        "memory": 61692454130,
+        "opcode": 28546562351,
+        "precompile": 5055663076
+      },
+      "peak_heap_bytes": 550352,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_1-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -25559,6 +26483,17 @@
       "peak_heap_bytes": 526280,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_1-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305434372,
+        "memory": 24061978069,
+        "opcode": 28546564652,
+        "precompile": 5055555498
+      },
+      "peak_heap_bytes": 547568,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_1-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25590,6 +26525,17 @@
         "precompile": 2151811853
       },
       "peak_heap_bytes": 526328,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_31-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193482964,
+        "memory": 41653194487,
+        "opcode": 27613218075,
+        "precompile": 2860483664
+      },
+      "peak_heap_bytes": 547600,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_31-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -25625,6 +26571,17 @@
       "peak_heap_bytes": 526344,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_31-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066123436,
+        "memory": 61692345669,
+        "opcode": 28546555789,
+        "precompile": 5055556671
+      },
+      "peak_heap_bytes": 547632,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_31-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25656,6 +26613,17 @@
         "precompile": 3798138963
       },
       "peak_heap_bytes": 526352,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_31-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 184266810856,
+        "memory": 24061979905,
+        "opcode": 28546561340,
+        "precompile": 5055594410
+      },
+      "peak_heap_bytes": 547640,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_False-offset_31-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -25691,6 +26659,17 @@
       "peak_heap_bytes": 526296,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_0-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 193701755572,
+        "memory": 24170204641,
+        "opcode": 26888989680,
+        "precompile": 2860470921
+      },
+      "peak_heap_bytes": 547600,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_0-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25722,6 +26701,17 @@
         "precompile": 3798130979
       },
       "peak_heap_bytes": 526336,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_0-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 223517852320,
+        "memory": 33719352492,
+        "opcode": 26659550986,
+        "precompile": 5055558974
+      },
+      "peak_heap_bytes": 547632,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_0-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -25757,6 +26747,17 @@
       "peak_heap_bytes": 529072,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_0-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305634904,
+        "memory": 24062066319,
+        "opcode": 28546645179,
+        "precompile": 5055640771
+      },
+      "peak_heap_bytes": 550336,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_0-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25788,6 +26789,17 @@
         "precompile": 2151822144
       },
       "peak_heap_bytes": 526312,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_1-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193530700,
+        "memory": 41653234403,
+        "opcode": 29011935232,
+        "precompile": 2860494868
+      },
+      "peak_heap_bytes": 547576,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_1-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -25823,6 +26835,17 @@
       "peak_heap_bytes": 529080,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_1-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066434536,
+        "memory": 61692451871,
+        "opcode": 28546653510,
+        "precompile": 5055385750
+      },
+      "peak_heap_bytes": 550344,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_1-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25854,6 +26877,17 @@
         "precompile": 3798164802
       },
       "peak_heap_bytes": 526344,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_1-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305451780,
+        "memory": 24062018281,
+        "opcode": 28546625102,
+        "precompile": 5055571940
+      },
+      "peak_heap_bytes": 547624,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_1-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -25889,6 +26923,17 @@
       "peak_heap_bytes": 529032,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_31-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193773052,
+        "memory": 41653297785,
+        "opcode": 29011962926,
+        "precompile": 2860532789
+      },
+      "peak_heap_bytes": 550288,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_31-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25920,6 +26965,17 @@
         "precompile": 3798128762
       },
       "peak_heap_bytes": 526288,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_31-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066156688,
+        "memory": 61692357540,
+        "opcode": 28546635394,
+        "precompile": 5055563355
+      },
+      "peak_heap_bytes": 547568,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_31-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -25955,6 +27011,17 @@
       "peak_heap_bytes": 529072,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_31-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 184267114408,
+        "memory": 24062104735,
+        "opcode": 28546651201,
+        "precompile": 5055666948
+      },
+      "peak_heap_bytes": 550336,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_256-offset_initialized_True-offset_31-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -25986,6 +27053,17 @@
         "precompile": 2151892240
       },
       "peak_heap_bytes": 528864,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_0-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 193702247212,
+        "memory": 24170305328,
+        "opcode": 26888955909,
+        "precompile": 2860559689
+      },
+      "peak_heap_bytes": 550096,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_0-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -26021,6 +27099,17 @@
       "peak_heap_bytes": 526168,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_0-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 223518141592,
+        "memory": 33719376104,
+        "opcode": 26659536885,
+        "precompile": 5055614827
+      },
+      "peak_heap_bytes": 547432,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_0-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26052,6 +27141,17 @@
         "precompile": 3798127055
       },
       "peak_heap_bytes": 526144,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_0-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305659112,
+        "memory": 24061992034,
+        "opcode": 28546600190,
+        "precompile": 5055577096
+      },
+      "peak_heap_bytes": 547424,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_0-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -26087,6 +27187,17 @@
       "peak_heap_bytes": 526128,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_1-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193749116,
+        "memory": 41653238145,
+        "opcode": 29011900591,
+        "precompile": 2860475467
+      },
+      "peak_heap_bytes": 547400,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_1-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26118,6 +27229,17 @@
         "precompile": 3798170158
       },
       "peak_heap_bytes": 526160,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_1-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066429504,
+        "memory": 61692422833,
+        "opcode": 28546596185,
+        "precompile": 5055620199
+      },
+      "peak_heap_bytes": 547440,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_1-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -26153,6 +27275,17 @@
       "peak_heap_bytes": 526136,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_1-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305663260,
+        "memory": 24062028685,
+        "opcode": 28546591165,
+        "precompile": 5055325101
+      },
+      "peak_heap_bytes": 547368,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_1-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26184,6 +27317,17 @@
         "precompile": 2151759136
       },
       "peak_heap_bytes": 526048,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_31-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193707160,
+        "memory": 41653226999,
+        "opcode": 27613243122,
+        "precompile": 2860422793
+      },
+      "peak_heap_bytes": 547320,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_31-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -26219,6 +27363,17 @@
       "peak_heap_bytes": 526168,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_31-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066411076,
+        "memory": 61692413964,
+        "opcode": 28546601726,
+        "precompile": 5055582648
+      },
+      "peak_heap_bytes": 547424,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_31-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26250,6 +27405,17 @@
         "precompile": 3798082288
       },
       "peak_heap_bytes": 526112,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_31-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 184267012816,
+        "memory": 24061979965,
+        "opcode": 28546593118,
+        "precompile": 5055519407
+      },
+      "peak_heap_bytes": 547360,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_False-offset_31-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -26285,6 +27451,17 @@
       "peak_heap_bytes": 526064,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_0-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 193702001528,
+        "memory": 24170198630,
+        "opcode": 26889035289,
+        "precompile": 2860431013
+      },
+      "peak_heap_bytes": 547344,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_0-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26316,6 +27493,17 @@
         "precompile": 3798160891
       },
       "peak_heap_bytes": 526128,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_0-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 223518136560,
+        "memory": 33719390306,
+        "opcode": 26659591635,
+        "precompile": 5055602530
+      },
+      "peak_heap_bytes": 547432,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_0-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -26351,6 +27539,17 @@
       "peak_heap_bytes": 526136,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_0-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305688692,
+        "memory": 24062033900,
+        "opcode": 28546660966,
+        "precompile": 5055593043
+      },
+      "peak_heap_bytes": 547440,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_0-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26382,6 +27581,17 @@
         "precompile": 2151797958
       },
       "peak_heap_bytes": 526120,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_1-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193718176,
+        "memory": 41653258482,
+        "opcode": 29011957596,
+        "precompile": 2860463490
+      },
+      "peak_heap_bytes": 547408,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_1-opcode_MLOAD-benchmark-gas-value_60M]": {
@@ -26417,6 +27627,17 @@
       "peak_heap_bytes": 526152,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_1-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066420596,
+        "memory": 61692439321,
+        "opcode": 28546672092,
+        "precompile": 5055574745
+      },
+      "peak_heap_bytes": 547440,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_1-opcode_MSTORE-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26448,6 +27669,17 @@
         "precompile": 3798269307
       },
       "peak_heap_bytes": 527472,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_1-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 190305889836,
+        "memory": 24062100345,
+        "opcode": 28546678253,
+        "precompile": 5055714465
+      },
+      "peak_heap_bytes": 548760,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_1-opcode_MSTORE8-benchmark-gas-value_60M]": {
@@ -26483,6 +27715,17 @@
       "peak_heap_bytes": 526104,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_31-opcode_MLOAD-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 202193742588,
+        "memory": 41653272843,
+        "opcode": 29011957800,
+        "precompile": 2860497130
+      },
+      "peak_heap_bytes": 547408,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_31-opcode_MLOAD-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26514,6 +27757,17 @@
         "precompile": 3798143577
       },
       "peak_heap_bytes": 526152,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_31-opcode_MSTORE-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 231066440656,
+        "memory": 61692450532,
+        "opcode": 28546666975,
+        "precompile": 5055612047
+      },
+      "peak_heap_bytes": 547440,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_31-opcode_MSTORE-benchmark-gas-value_60M]": {
@@ -26549,6 +27803,17 @@
       "peak_heap_bytes": 526144,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_31-opcode_MSTORE8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 184267076260,
+        "memory": 24062054293,
+        "opcode": 28546662093,
+        "precompile": 5055620540
+      },
+      "peak_heap_bytes": 547440,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_memory_access[fork_Amsterdam-blockchain_test-mem_size_32-offset_initialized_True-offset_31-opcode_MSTORE8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26580,6 +27845,17 @@
         "precompile": 7924325617
       },
       "peak_heap_bytes": 32522752,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_msize[fork_Amsterdam-blockchain_test-mem_size_0-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 215163090528,
+        "memory": 30706918651,
+        "opcode": 36455870713,
+        "precompile": 10561126086
+      },
+      "peak_heap_bytes": 43195768,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_msize[fork_Amsterdam-blockchain_test-mem_size_0-benchmark-gas-value_60M]": {
@@ -26615,6 +27891,17 @@
       "peak_heap_bytes": 32478304,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_msize[fork_Amsterdam-blockchain_test-mem_size_1-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 214886224584,
+        "memory": 30738305760,
+        "opcode": 36398205578,
+        "precompile": 10541229502
+      },
+      "peak_heap_bytes": 43137392,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_msize[fork_Amsterdam-blockchain_test-mem_size_1-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26646,6 +27933,17 @@
         "precompile": 7621606149
       },
       "peak_heap_bytes": 31145184,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_msize[fork_Amsterdam-blockchain_test-mem_size_1000-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 205922779832,
+        "memory": 29560549643,
+        "opcode": 34933998444,
+        "precompile": 10154972574
+      },
+      "peak_heap_bytes": 41358808,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_msize[fork_Amsterdam-blockchain_test-mem_size_1000-benchmark-gas-value_60M]": {
@@ -26681,6 +27979,17 @@
       "peak_heap_bytes": 626008,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_msize[fork_Amsterdam-blockchain_test-mem_size_100000-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 183197460740,
+        "memory": 22461074822,
+        "opcode": 34416477832,
+        "precompile": 4825885301
+      },
+      "peak_heap_bytes": 647232,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_msize[fork_Amsterdam-blockchain_test-mem_size_100000-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26712,6 +28021,17 @@
         "precompile": 3204296807
       },
       "peak_heap_bytes": 1528784,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_msize[fork_Amsterdam-blockchain_test-mem_size_1000000-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 161466232356,
+        "memory": 19822251326,
+        "opcode": 30334545044,
+        "precompile": 4263778921
+      },
+      "peak_heap_bytes": 1550064,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_msize[fork_Amsterdam-blockchain_test-mem_size_1000000-benchmark-gas-value_60M]": {
@@ -26747,6 +28067,17 @@
       "peak_heap_bytes": 402984,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_0-depth_1-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 171197818436,
+        "memory": 24642087031,
+        "opcode": 25282090434,
+        "precompile": 3302665492
+      },
+      "peak_heap_bytes": 448880,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_0-depth_1-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26778,6 +28109,17 @@
         "precompile": 103921558
       },
       "peak_heap_bytes": 5385696,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_0-depth_256-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 4281893496,
+        "memory": 665695543,
+        "opcode": 619480566,
+        "precompile": 136390168
+      },
+      "peak_heap_bytes": 7055616,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_0-depth_256-benchmark-gas-value_60M]": {
@@ -26813,6 +28155,17 @@
       "peak_heap_bytes": 1611936,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_0-depth_64-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 63694772236,
+        "memory": 9185428448,
+        "opcode": 9546033848,
+        "precompile": 1251389796
+      },
+      "peak_heap_bytes": 2051728,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_0-depth_64-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26844,6 +28197,17 @@
         "precompile": 2475421362
       },
       "peak_heap_bytes": 733352,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_65536-depth_1-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 170901106216,
+        "memory": 24603799197,
+        "opcode": 25664541034,
+        "precompile": 3298069516
+      },
+      "peak_heap_bytes": 779256,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_65536-depth_1-benchmark-gas-value_60M]": {
@@ -26879,6 +28243,17 @@
       "peak_heap_bytes": 31544536,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_65536-depth_256-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 2896667808,
+        "memory": 834124077,
+        "opcode": 419988260,
+        "precompile": 192870892
+      },
+      "peak_heap_bytes": 32541160,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_65536-depth_256-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26910,6 +28285,17 @@
         "precompile": 881886187
       },
       "peak_heap_bytes": 14185448,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_65536-depth_64-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 57560800684,
+        "memory": 8452964186,
+        "opcode": 8624830383,
+        "precompile": 1170504944
+      },
+      "peak_heap_bytes": 14625240,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_65536-depth_64-benchmark-gas-value_60M]": {
@@ -26945,6 +28331,17 @@
       "peak_heap_bytes": 443944,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_8192-depth_1-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 171179550780,
+        "memory": 24640039990,
+        "opcode": 25706380486,
+        "precompile": 3302474731
+      },
+      "peak_heap_bytes": 492520,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_8192-depth_1-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -26978,6 +28375,17 @@
       "peak_heap_bytes": 11628088,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_8192-depth_256-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 3717402036,
+        "memory": 657901511,
+        "opcode": 539214936,
+        "precompile": 143471484
+      },
+      "peak_heap_bytes": 13300816,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_8192-depth_256-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27009,6 +28417,17 @@
         "precompile": 938510373
       },
       "peak_heap_bytes": 3172664,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_8192-depth_64-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 63315694268,
+        "memory": 9149356121,
+        "opcode": 9489597549,
+        "precompile": 1248700885
+      },
+      "peak_heap_bytes": 3615200,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_nested_frame_memory[fork_Amsterdam-blockchain_test-mem_size_8192-depth_64-benchmark-gas-value_60M]": {
@@ -27066,6 +28485,17 @@
       "peak_heap_bytes": 5406360,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_memory.py::test_sibling_frame_memory[fork_Amsterdam-blockchain_test-mem_size_65536-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 3493350264,
+        "memory": 2740613481,
+        "opcode": 461756689,
+        "precompile": 743267420
+      },
+      "peak_heap_bytes": 7031320,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_memory.py::test_sibling_frame_memory[fork_Amsterdam-blockchain_test-mem_size_65536-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27097,6 +28527,17 @@
         "precompile": 2906835646
       },
       "peak_heap_bytes": 68239296,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_memory.py::test_sibling_frame_memory[fork_Amsterdam-blockchain_test-mem_size_8192-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 48348263092,
+        "memory": 13287251050,
+        "opcode": 6246204632,
+        "precompile": 3877078485
+      },
+      "peak_heap_bytes": 90827848,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_memory.py::test_sibling_frame_memory[fork_Amsterdam-blockchain_test-mem_size_8192-benchmark-gas-value_60M]": {
@@ -27132,6 +28573,17 @@
       "peak_heap_bytes": 22393112,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP1-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 140736416648,
+        "memory": 23814731011,
+        "opcode": 24356525010,
+        "precompile": 8217142472
+      },
+      "peak_heap_bytes": 29690512,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP1-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27163,6 +28615,17 @@
         "precompile": 6188660272
       },
       "peak_heap_bytes": 22458280,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP10-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 154104910376,
+        "memory": 23859262990,
+        "opcode": 25819675438,
+        "precompile": 8232413984
+      },
+      "peak_heap_bytes": 29776320,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP10-benchmark-gas-value_60M]": {
@@ -27198,6 +28661,17 @@
       "peak_heap_bytes": 22459936,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP11-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 154135045528,
+        "memory": 23862106157,
+        "opcode": 25833061126,
+        "precompile": 8232156894
+      },
+      "peak_heap_bytes": 29779592,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP11-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27229,6 +28703,17 @@
         "precompile": 6183325597
       },
       "peak_heap_bytes": 22471024,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP12-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 154167254476,
+        "memory": 23855120417,
+        "opcode": 25824927994,
+        "precompile": 8235603955
+      },
+      "peak_heap_bytes": 29793016,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP12-benchmark-gas-value_60M]": {
@@ -27264,6 +28749,17 @@
       "peak_heap_bytes": 22477464,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP13-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 154199139336,
+        "memory": 23851616982,
+        "opcode": 25838394046,
+        "precompile": 8238897906
+      },
+      "peak_heap_bytes": 29802712,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP13-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27295,6 +28791,17 @@
         "precompile": 6183856469
       },
       "peak_heap_bytes": 22483600,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP14-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 154229554852,
+        "memory": 23867334095,
+        "opcode": 25859143657,
+        "precompile": 8237601481
+      },
+      "peak_heap_bytes": 29809744,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP14-benchmark-gas-value_60M]": {
@@ -27330,6 +28837,17 @@
       "peak_heap_bytes": 22488776,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP15-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 154261509344,
+        "memory": 23876162166,
+        "opcode": 25858280374,
+        "precompile": 8237745164
+      },
+      "peak_heap_bytes": 29818168,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP15-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27361,6 +28879,17 @@
         "precompile": 6185684132
       },
       "peak_heap_bytes": 22504360,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP16-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 154293941536,
+        "memory": 23876238484,
+        "opcode": 25864519940,
+        "precompile": 8240272635
+      },
+      "peak_heap_bytes": 29836120,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP16-benchmark-gas-value_60M]": {
@@ -27396,6 +28925,17 @@
       "peak_heap_bytes": 22400464,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP2-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 153853201440,
+        "memory": 23832866570,
+        "opcode": 25758957119,
+        "precompile": 8219631114
+      },
+      "peak_heap_bytes": 29699216,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP2-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27427,6 +28967,17 @@
         "precompile": 6172492553
       },
       "peak_heap_bytes": 22407416,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP3-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 153885004904,
+        "memory": 23815821466,
+        "opcode": 25754534719,
+        "precompile": 8218935566
+      },
+      "peak_heap_bytes": 29708504,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP3-benchmark-gas-value_60M]": {
@@ -27462,6 +29013,17 @@
       "peak_heap_bytes": 22416776,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP4-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 153916920772,
+        "memory": 23843240314,
+        "opcode": 25775050140,
+        "precompile": 8220099372
+      },
+      "peak_heap_bytes": 29721120,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP4-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27493,6 +29055,17 @@
         "precompile": 6173877168
       },
       "peak_heap_bytes": 22418720,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP5-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 153946757744,
+        "memory": 23833706091,
+        "opcode": 25799413255,
+        "precompile": 8222562281
+      },
+      "peak_heap_bytes": 29723984,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP5-benchmark-gas-value_60M]": {
@@ -27528,6 +29101,17 @@
       "peak_heap_bytes": 22429328,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP6-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 153978999536,
+        "memory": 23845074446,
+        "opcode": 25794807954,
+        "precompile": 8225805706
+      },
+      "peak_heap_bytes": 29737824,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP6-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27559,6 +29143,17 @@
         "precompile": 6178591209
       },
       "peak_heap_bytes": 22434944,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP7-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 154010652652,
+        "memory": 23844895605,
+        "opcode": 25793679727,
+        "precompile": 8227338866
+      },
+      "peak_heap_bytes": 29746256,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP7-benchmark-gas-value_60M]": {
@@ -27594,6 +29189,17 @@
       "peak_heap_bytes": 22446368,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP8-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 154041355604,
+        "memory": 23855347510,
+        "opcode": 25810914753,
+        "precompile": 8227288237
+      },
+      "peak_heap_bytes": 29759072,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP8-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27625,6 +29231,17 @@
         "precompile": 6177589481
       },
       "peak_heap_bytes": 22447480,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP9-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 154072937796,
+        "memory": 23846126590,
+        "opcode": 25806186928,
+        "precompile": 8229531392
+      },
+      "peak_heap_bytes": 29762936,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_dup[fork_Amsterdam-blockchain_test-opcode_DUP9-benchmark-gas-value_60M]": {
@@ -27660,6 +29277,17 @@
       "peak_heap_bytes": 23147200,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_stack.py::test_dupn[fork_Amsterdam-blockchain_test-stack_107-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 238138514504,
+        "memory": 30571826526,
+        "opcode": 42852063267,
+        "precompile": 1661761432
+      },
+      "peak_heap_bytes": 30694672,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_stack.py::test_dupn[fork_Amsterdam-blockchain_test-stack_107-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27691,6 +29319,17 @@
         "precompile": 808388144
       },
       "peak_heap_bytes": 22505680,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_dupn[fork_Amsterdam-blockchain_test-stack_17-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 240636166268,
+        "memory": 30675873193,
+        "opcode": 43371601656,
+        "precompile": 1071278941
+      },
+      "peak_heap_bytes": 29839272,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_dupn[fork_Amsterdam-blockchain_test-stack_17-benchmark-gas-value_60M]": {
@@ -27726,6 +29365,17 @@
       "peak_heap_bytes": 24133192,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_stack.py::test_dupn[fork_Amsterdam-blockchain_test-stack_235-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 234323864172,
+        "memory": 30411045149,
+        "opcode": 38854756602,
+        "precompile": 2562292213
+      },
+      "peak_heap_bytes": 32006840,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_stack.py::test_dupn[fork_Amsterdam-blockchain_test-stack_235-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27757,6 +29407,17 @@
         "precompile": 35170420
       },
       "peak_heap_bytes": 526536,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_exchange[fork_Amsterdam-blockchain_test-n_14_m_16-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 430323000832,
+        "memory": 36648862146,
+        "opcode": 57684531872,
+        "precompile": 38304046
+      },
+      "peak_heap_bytes": 547816,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_exchange[fork_Amsterdam-blockchain_test-n_14_m_16-benchmark-gas-value_60M]": {
@@ -27792,6 +29453,17 @@
       "peak_heap_bytes": 528792,
       "peak_stack_bytes": 54800
     },
+    "benchmark/compute/instruction/test_stack.py::test_exchange[fork_Amsterdam-blockchain_test-n_1_m_2-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 430323725440,
+        "memory": 36648980661,
+        "opcode": 65679919171,
+        "precompile": 38387116
+      },
+      "peak_heap_bytes": 550056,
+      "peak_stack_bytes": 54800
+    },
     "benchmark/compute/instruction/test_stack.py::test_exchange[fork_Amsterdam-blockchain_test-n_1_m_2-benchmark-gas-value_60M]": {
       "cost": {
         "base": 287309824,
@@ -27823,6 +29495,17 @@
         "precompile": 35202766
       },
       "peak_heap_bytes": 526960,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_exchange[fork_Amsterdam-blockchain_test-n_1_m_29-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 425793987924,
+        "memory": 36648839858,
+        "opcode": 69676541695,
+        "precompile": 38323327
+      },
+      "peak_heap_bytes": 548248,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_exchange[fork_Amsterdam-blockchain_test-n_1_m_29-benchmark-gas-value_60M]": {
@@ -27889,6 +29572,17 @@
         "precompile": 5350908302
       },
       "peak_heap_bytes": 22388504,
+      "peak_stack_bytes": 54800
+    },
+    "benchmark/compute/instruction/test_stack.py::test_push[fork_Amsterdam-blockchain_test-opcode_PUSH1-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 175616625376,
+        "memory": 25559064164,
+        "opcode": 29136348038,
+        "precompile": 7125036674
+      },
+      "peak_heap_bytes": 29683088,
       "peak_stack_bytes": 54800
     },
     "benchmark/compute/instruction/test_stack.py::test_push[fork_Amsterdam-blockchain_test-opcode_PUSH1-benchmark-gas-value_60M]": {
@@ -28318,6 +30012,17 @@
         "precompile": 736784923
       },
       "peak_heap_bytes": 22455224,
+      "peak_stack_bytes": 57152
+    },
+    "benchmark/compute/instruction/test_stack.py::test_push[fork_Amsterdam-blockchain_test-opcode_PUSH21-benchmark-gas-value_200M]": {
+      "cost": {
+        "base": 287309824,
+        "main": 223632924368,
+        "memory": 54504637704,
+        "opcode": 33203697097,
+        "precompile": 969461950
+      },
+      "peak_heap_bytes": 29749816,
       "peak_stack_bytes": 57152
     },
     "benchmark/compute/instruction/test_stack.py::test_push[fork_Amsterdam-blockchain_test-opcode_PUSH21-benchmark-gas-value_60M]": {
@@ -45304,6 +47009,7 @@
     "benchmark/compute/instruction/test_block_context.py::test_blockhash[fork_Amsterdam-blockchain_test-block_256-benchmark-gas-value_200M]": "Emulator panicked: Mem::write_silent() invalid addr=2684354552=9ffffff8 write section start=a0000000 end=c0000000",
     "benchmark/compute/instruction/test_block_context.py::test_blockhash[fork_Amsterdam-blockchain_test-block_256-benchmark-gas-value_60M]": "Emulator panicked: Mem::write_silent() invalid addr=2684354552=9ffffff8 write section start=a0000000 end=c0000000",
     "benchmark/compute/instruction/test_memory.py::test_sibling_frame_memory[fork_Amsterdam-blockchain_test-mem_size_0-benchmark-gas-value_150M]": "Emulator panicked: Mem::write_silent() invalid addr=2684354552=9ffffff8 write section start=a0000000 end=c0000000",
+    "benchmark/compute/instruction/test_memory.py::test_sibling_frame_memory[fork_Amsterdam-blockchain_test-mem_size_0-benchmark-gas-value_200M]": "Emulator panicked: Mem::write_silent() invalid addr=2684354552=9ffffff8 write section start=a0000000 end=c0000000",
     "benchmark/compute/instruction/test_stack.py::test_push_truncated_data[fork_Amsterdam-blockchain_test-PUSH1 with no data-benchmark-gas-value_150M]": "Emulator panicked: Mem::write_silent() invalid addr=2684354552=9ffffff8 write section start=a0000000 end=c0000000",
     "benchmark/compute/instruction/test_stack.py::test_push_truncated_data[fork_Amsterdam-blockchain_test-PUSH2 with half its data-benchmark-gas-value_150M]": "Emulator panicked: Mem::write_silent() invalid addr=2684354056=9ffffe08 write section start=a0000000 end=c0000000",
     "benchmark/compute/instruction/test_stack.py::test_push_truncated_data[fork_Amsterdam-blockchain_test-PUSH2 with no data-benchmark-gas-value_150M]": "Emulator panicked: Mem::write_silent() invalid addr=2684354552=9ffffff8 write section start=a0000000 end=c0000000",
