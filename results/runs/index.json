@@ -1,6 +1,138 @@
 {
-  "generated": 1794888539,
+  "generated": 1795747456,
   "entries": [
+    {
+      "run_id": "1795140712_f0cb5111_ethrex-openvm",
+      "timestamp": 1795140712,
+      "timestamp_end": 1795143671,
+      "suite_hash": "e38b4246ba5119d8",
+      "instance": {
+        "id": "ethrex-openvm",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:latest",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 1000,
+        "tests_passed": 1000,
+        "tests_failed": 0,
+        "steps": {
+          "test": {
+            "success": 1000,
+            "fail": 0,
+            "duration": 2748680549397,
+            "gas_used": 37802918631,
+            "gas_used_duration": 2746594225106
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "ethrex",
+        "stateless_validator_version": "v30.0.1",
+        "zkvm": "openvm",
+        "zkvm_version": "v2.1.0-preview"
+      }
+    },
+    {
+      "run_id": "1795137980_48a8b3ea_reth-openvm",
+      "timestamp": 1795137980,
+      "timestamp_end": 1795140711,
+      "suite_hash": "e38b4246ba5119d8",
+      "instance": {
+        "id": "reth-openvm",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:latest",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 1000,
+        "tests_passed": 960,
+        "tests_failed": 40,
+        "steps": {
+          "test": {
+            "success": 960,
+            "fail": 40,
+            "duration": 2524875519629,
+            "gas_used": 36189476055,
+            "gas_used_duration": 2449307132133
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "reth",
+        "stateless_validator_version": "v0.1.0-rc.6",
+        "zkvm": "openvm",
+        "zkvm_version": "v2.1.0-preview"
+      }
+    },
+    {
+      "run_id": "1794923000_91ff708d_ethrex-openvm",
+      "timestamp": 1794923000,
+      "timestamp_end": 1794948856,
+      "suite_hash": "5f4170b505f5fcdf",
+      "instance": {
+        "id": "ethrex-openvm",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:latest",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 1216,
+        "tests_passed": 1174,
+        "tests_failed": 42,
+        "steps": {
+          "test": {
+            "success": 1174,
+            "fail": 42,
+            "duration": 25337662158987,
+            "gas_used": 230149277947,
+            "gas_used_duration": 19821263374197
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "ethrex",
+        "stateless_validator_version": "v30.0.1",
+        "zkvm": "openvm",
+        "zkvm_version": "v2.1.0-preview"
+      }
+    },
+    {
+      "run_id": "1794899271_6813fc77_reth-openvm",
+      "timestamp": 1794899271,
+      "timestamp_end": 1794922993,
+      "suite_hash": "5f4170b505f5fcdf",
+      "instance": {
+        "id": "reth-openvm",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:latest",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 1216,
+        "tests_passed": 1204,
+        "tests_failed": 12,
+        "steps": {
+          "test": {
+            "success": 1204,
+            "fail": 12,
+            "duration": 23267533202679,
+            "gas_used": 235938291549,
+            "gas_used_duration": 20897804278952
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "reth",
+        "stateless_validator_version": "v0.1.0-rc.6",
+        "zkvm": "openvm",
+        "zkvm_version": "v2.1.0-preview"
+      }
+    },
     {
       "run_id": "1794823309_4685bb67_zesu-zisk",
       "timestamp": 1794823309,
