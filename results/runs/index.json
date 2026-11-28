@@ -1,6 +1,72 @@
 {
-  "generated": 1795747456,
+  "generated": 1795872040,
   "entries": [
+    {
+      "run_id": "1795857929_793535ac_ethrex-openvm",
+      "timestamp": 1795857929,
+      "timestamp_end": 1795862291,
+      "suite_hash": "5b2f548ef266887a",
+      "instance": {
+        "id": "ethrex-openvm",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:latest",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 1000,
+        "tests_passed": 1000,
+        "tests_failed": 0,
+        "steps": {
+          "test": {
+            "success": 1000,
+            "fail": 0,
+            "duration": 3785195489214,
+            "gas_used": 64705495634,
+            "gas_used_duration": 3785195489214
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "ethrex",
+        "stateless_validator_version": "v30.0.1",
+        "zkvm": "openvm",
+        "zkvm_version": "v2.1.0-preview"
+      }
+    },
+    {
+      "run_id": "1795853807_2975f560_reth-openvm",
+      "timestamp": 1795853807,
+      "timestamp_end": 1795857928,
+      "suite_hash": "5b2f548ef266887a",
+      "instance": {
+        "id": "reth-openvm",
+        "client": "provoor",
+        "image": "ghcr.io/han0110/provoor/provoor:latest",
+        "rollback_strategy": "rpc-debug-setHead"
+      },
+      "tests": {
+        "tests_total": 1000,
+        "tests_passed": 989,
+        "tests_failed": 11,
+        "steps": {
+          "test": {
+            "success": 989,
+            "fail": 11,
+            "duration": 3607624147388,
+            "gas_used": 63934526886,
+            "gas_used_duration": 3576770591870
+          }
+        }
+      },
+      "status": "completed",
+      "metadata": {
+        "stateless_validator": "reth",
+        "stateless_validator_version": "v0.1.0-rc.6",
+        "zkvm": "openvm",
+        "zkvm_version": "v2.1.0-preview"
+      }
+    },
     {
       "run_id": "1794923000_91ff708d_ethrex-openvm",
       "timestamp": 1794923000,

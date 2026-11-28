@@ -1,6 +1,56 @@
 {
-  "generated": 1795747458,
+  "generated": 1795872041,
   "entries": [
+    {
+      "estimate_id": "1794923000_91ff708d_ethrex-openvm",
+      "timestamp": 1794923000,
+      "suite_hash": "5f4170b505f5fcdf",
+      "instance": {
+        "id": "ethrex-openvm",
+        "client": "provoor"
+      },
+      "metadata": {
+        "stateless_validator": "ethrex",
+        "stateless_validator_version": "v30.0.1",
+        "zkvm": "openvm",
+        "zkvm_version": "v2.1.0-preview"
+      },
+      "image": "ghcr.io/eth-act/ere/ere-server-openvm:0.19.4",
+      "tests": {
+        "tests_passed": 1176,
+        "tests_failed": 40
+      },
+      "cost": {
+        "precompile": 20141572374777,
+        "rv64": 174658338211945,
+        "system": 15876719341406
+      }
+    },
+    {
+      "estimate_id": "1794899271_6813fc77_reth-openvm",
+      "timestamp": 1794899271,
+      "suite_hash": "5f4170b505f5fcdf",
+      "instance": {
+        "id": "reth-openvm",
+        "client": "provoor"
+      },
+      "metadata": {
+        "stateless_validator": "reth",
+        "stateless_validator_version": "v0.1.0-rc.6",
+        "zkvm": "openvm",
+        "zkvm_version": "v2.1.0-preview"
+      },
+      "image": "ghcr.io/eth-act/ere/ere-server-openvm:0.19.4",
+      "tests": {
+        "tests_passed": 1206,
+        "tests_failed": 10
+      },
+      "cost": {
+        "precompile": 20189433986063,
+        "rv64": 182762258448179,
+        "system": 15311945147634
+      }
+    },
     {
       "estimate_id": "1794823309_4685bb67_zesu-zisk",
       "timestamp": 1794823309,
@@ -161,6 +211,60 @@
         "memory": 62995596076425,
         "opcode": 66222679156011,
         "precompile": 43297879290314
+      }
+    },
+    {
+      "estimate_id": "1794633036_2d222c67_ethrex-zisk",
+      "timestamp": 1794633036,
+      "suite_hash": "75f54cf0b51e8d30",
+      "instance": {
+        "id": "ethrex-zisk",
+        "client": "provoor"
+      },
+      "metadata": {
+        "stateless_validator": "ethrex",
+        "stateless_validator_version": "v30.0.1",
+        "zkvm": "zisk",
+        "zkvm_version": "v1.3.2-alpha"
+      },
+      "image": "ghcr.io/eth-act/ere/ere-server-zisk:0.19.4",
+      "tests": {
+        "tests_passed": 4779,
+        "tests_failed": 72
+      },
+      "cost": {
+        "base": 1373053648896,
+        "main": 351204132342936,
+        "memory": 65399676151729,
+        "opcode": 68079711350755,
+        "precompile": 50344733213641
+      }
+    },
+    {
+      "estimate_id": "1794363314_33b9f839_reth-zisk",
+      "timestamp": 1794363314,
+      "suite_hash": "75f54cf0b51e8d30",
+      "instance": {
+        "id": "reth-zisk",
+        "client": "provoor"
+      },
+      "metadata": {
+        "stateless_validator": "reth",
+        "stateless_validator_version": "v0.1.0-rc.6",
+        "zkvm": "zisk",
+        "zkvm_version": "v1.3.2-alpha"
+      },
+      "image": "ghcr.io/eth-act/ere/ere-server-zisk:0.19.4",
+      "tests": {
+        "tests_passed": 4820,
+        "tests_failed": 31
+      },
+      "cost": {
+        "base": 1384833351680,
+        "main": 372144008865028,
+        "memory": 78287924982700,
+        "opcode": 90666082111628,
+        "precompile": 49446377454861
       }
     },
     {
